@@ -1,0 +1,23 @@
+{
+  "categories": ["Skjemteeventyr"],
+  "collector": "Peter Christen Asbjørnsen",
+  "collectionName": "Norske folkeeventyr",
+  "collectionIndex": "3",
+  "dateCollected": "1810",
+  "originalLanguage": "german",
+  "arneThompsonType": "1641",
+  "title": "Kullbrenneren",
+  "titleEnglish": "The Charcoal Burner",
+  "images": [
+    {
+      "title": "Illustrasjon til «Kjærringen mod Strømmen» i P.Chr.AsbjørnsenogJ.Moe,EventyrbogforBørn.NorskeFolkeeventyr,København1883",
+      "artist": "Erik Werenskiold",
+      "file": "kullbrenneren.png",
+      "date": "1883",
+      "technique": "Penn",
+      "material": "Papir",
+      "dimensions": "110 x 100 mm",
+      "owner": "Nasjonalmuseet for kunst, arkitektur og design"
+    }
+  ]
+}

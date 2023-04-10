@@ -1,0 +1,30 @@
+{% assign imagePaths = include.path | split: ", " %}
+
+{% if imagePaths.size == 1 and (include.class == "left" or include.class == "right")  %}
+  {% assign imagePaths = imagePaths[0] %}
+  {% assign image = site.data.images[imagePaths] %}
+  <figure class="{{include.class}}">
+    <img src="/images/{{imagePaths}}">
+    <figcaption>
+      <div>{{image.title}}</div>
+      <div class="byline">{{image.artist}}</div>
+    </figcaption>
+  </figure>
+
+{% else  %}
+
+  <section class="bildeseksjon">
+    {% for imagePath in imagePaths %}
+      {% assign image = site.data.images[imagePath] %}
+      <figure class="{{include.class}}">
+        <img src="/images/{{imagePath}}">
+        <figcaption>
+          <div>{{image.title}}</div>
+          <div class="byline">{{image.artist}}</div>
+        </figcaption>
+      </figure>
+    {% endfor %}
+  </section>
+
+{% endif  %}
+

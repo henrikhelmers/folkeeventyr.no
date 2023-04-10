@@ -1,0 +1,45 @@
+<footer id="site-footer">
+  <a href="https://henrikhelmers.no">
+    henrikhelmers.no
+  </a>
+</footer>
+<script>
+
+  function setCustomProperties() {
+    const target = document.documentElement;
+    const viewPortSize = `${target.clientWidth}px ${target.clientHeight}px`;
+    target.style.setProperty("--background-size", viewPortSize);
+    target.style.setProperty("--scroll", window.pageYOffset + "px");
+  }
+
+  function goldEffect(textNode) {
+    textNode.setAttribute("text", textNode.innerText);
+    textNode.style.setProperty("--offsetY", textNode.getBoundingClientRect().top + "px");
+  }
+
+  function createIntroLine(textNode) {
+    const firstLetterEl = document.createElement("span");
+    const textEl = document.createElement("span");
+
+    firstLetterEl.innerText = textNode.innerText.substring(0, 1);
+    firstLetterEl.classList.add("gold");
+    firstLetterEl.setAttribute("text", firstLetterEl.innerText);
+
+    textEl.innerText = textNode.innerText.substring(1);
+    textEl.classList.add("gold");
+
+    textNode.innerText = "";
+    textNode.appendChild(firstLetterEl);
+    textNode.appendChild(textEl);
+  }
+
+  createIntroLine(document.querySelector(".eventyr strong"));;
+  document.querySelectorAll(".gold").forEach(textNode => goldEffect(textNode));
+
+  document.addEventListener("scroll", setCustomProperties, false);
+  document.addEventListener("touchmove", setCustomProperties, false);
+  window.addEventListener("resize", setCustomProperties, false);
+
+  setCustomProperties()
+
+</script>

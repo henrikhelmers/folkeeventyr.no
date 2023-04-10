@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="no">
+
+{% include head.html %}
+
+{% if false and page.image %}
+  <body style="background-image: url('/images/{{page.image}}')">
+{% else %}
+  <body class="">
+{% endif %}
+
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+</body>
+</html>

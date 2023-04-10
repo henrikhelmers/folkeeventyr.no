@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article class="eventyr wrapper">
+
+    {% assign image = page %}
+
+<section class="bildeseksjon">
+    <figure class="{{include.class}}">
+      <img src="/images/{{page.image}}">
+      <figcaption>
+        <div>{{page.title}}</div>
+        <div class="byline">{{image.artist}}</div>
+      </figcaption>
+    </figure>
+</section>
+
+
+<h2>Illustrasjoner</h2>
+{% if image.title %}
+  <h3>{{image.title}}</h3>
+{% endif %}
+<p>
+  Laget av {{image.artist}} med {{image.technique }}
+  på {{image.material}} i {{image.year}}.
+  Originalen er {{image.height}} høy og {{image.width}}
+  bred og eies av {{image.eier}}.
+<p>
+
+</article>

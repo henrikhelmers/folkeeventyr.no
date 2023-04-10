@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: -10000 }}###{{ tag[0] | replace: ' ', '##' }}###{{ tag[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sorted_tags = tags | split: ' ' | sort %}
+
+
+{% assign posts = site.posts | sort %}
+
+
+<article class="eventyr">
+
+{% include image.html path="gamle/alle_eventyr.png" %}
+
+<h1>folkeeventyr.no</h1>
+<p class="intro">Spennende norske folkeeventyr for store og små med illustrasjoner fra Asbjørnsen og Moe sin tid.</p>
+<div class="ornament" aria-hidden="true">
+  <span>ACBCD</span>
+</div>
+
+<h3>
+  <a href="/images/">Le images</a>
+</h3>
+<section class="tags">
+  {% for tag in sorted_tags %}
+    {% assign items = tag | split: '###' %}
+    {% assign category = items[1] | replace: '##', ' ' %}
+    {% assign posts_from_category = posts | where_exp: "post", "post.tags contains category" %}
+
+    <div class="tag">
+      <a href="/tag/{{ category }}">
+        <h2>{{ category | capitalize }}</h2>
+      </a>
+      {% for post in posts_from_category %}
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      {% endfor %}
+      <div class="ornament" aria-hidden="true">
+        <span>S</span>
+      </div>
+    </div>
+
+  {% endfor %}
+</section>
+
+  {% for post in posts %}
+    {% if post.tags == empty %}
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    {% endif %}
+  {% endfor %}
+
+</article>

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+
+{% for image in site.data.images %}
+  <div style="display: inline-block; max-width: 200px">
+    {% assign imageData = image[1] %}
+
+    <img src="/images/{{image[0]}}">
+
+    {% if imageData.title %}
+      <h3>{{imageData.title}}</h3>
+    {% endif %}
+    <p>
+      Laget av {{imageData.artist}} med {{imageData.technique }}
+      på {{imageData.material}} i {{imageData.year}}.
+      Originalen er {{imageData.height}} høy og {{imageData.width}}
+      bred og eies av {{imageData.eier}}.
+    <p>
+  </div>
+{% endfor %}

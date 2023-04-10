@@ -1,0 +1,7 @@
+{% if include.tag == include.pageTag or include.nolinks == true %}
+  {{ include.tag }}
+{% else %}
+  <a href="/tag/{{include.tag}}">
+    {{include.tag}}
+  </a>
+{% endif %}
