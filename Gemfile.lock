@@ -52,6 +52,8 @@ GEM
       rake
     nokogiri (1.13.8-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.8-x86_64-linux)
+      racc (~> 1.4)
     nuggets (1.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -77,6 +79,8 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   jekyll
