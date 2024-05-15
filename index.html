@@ -33,11 +33,11 @@ layout: default
     {% assign posts_from_category = posts | where_exp: "post", "post.tags contains category" %}
 
     <div class="tag">
-      <a href="/tag/{{ category }}">
+      <a href="{{ site.baseurl }}/tag/{{ category }}">
         <h2>{{ category | capitalize }}</h2>
       </a>
       {% for post in posts_from_category %}
-        <a href="{{ post.url }}">
+        <a href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
         </a>
       {% endfor %}
