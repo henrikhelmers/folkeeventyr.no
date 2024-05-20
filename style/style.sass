@@ -224,23 +224,28 @@ ul
   background: #e3c5a1 url(/style/bg_eventyr_2x.png) 50% 0
   background-size: 256px
   box-shadow: 0 0 10px 6px rgba(0,0,0,0.6)
-  border-radius: 3px
+  border-radius: 10px
   color: #210
-  // position: relative
-  // border: 1px dashed #a87d53
-  overflow: hidden
-
+  position: relative
+  border: 1px solid #794717
   max-width: 840px
   margin: 0 auto
   box-sizing: border-box
 
   &:after
     content: ""
-    display: block
-    clear: both
+    position: absolute
+    left: 8px
+    top: 8px
+    right: 8px
+    bottom: 8px
+    border: 1px solid rgba(124, 91, 59, 0.3)
+    border-radius: 2px
+    box-shadow: 0 0 4px 4px rgba(128,73,26,0.3),0 0 20px 8px rgba(128,73,26,0.3) inset
+    pointer-events: none
 
   p
-    // text-shadow: 0 0 5px rgba(155,123,76, 0.75)
+    text-shadow: 0 0 4px rgba(155, 123, 76, 1)
     +prefix(hyphens, auto)
 
     + p
