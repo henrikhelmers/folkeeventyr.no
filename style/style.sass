@@ -1,5 +1,8 @@
 ---
 ---
+
+$line-height: 32px
+
 @font-face
   font-family: "PlainBlack"
   src: url("PlainBlackWide-Normal.woff") format("woff")
@@ -15,7 +18,6 @@
   src: url("Skrawk-Serif.ttf") format("truetype")
   font-weight: 400
   font-style: normal
-
 
 @font-face
   font-family: "FellEnglish"
@@ -37,8 +39,6 @@
   src: url("IMFeFL.woff") format("woff")
   font-weight: 400
 
-
-// MIXINS
 @mixin mobile()
   @media (max-width: 680px)
     @content
@@ -46,8 +46,6 @@
 @mixin notMobile()
   @media (min-width: 681px)
     @content
-
-
 
 @mixin prefix ($property, $value)
   -webkit-#{$property}: $value
@@ -65,28 +63,20 @@
   @at-root .print #{&}
     @content
 
-
-// VARIABLES
-$line-height: 32px
-
-
 *
   box-sizing: border-box
 
 ::selection
   background: rgba(#753, 0.3)
 
-
 ::root
   --scroll: 0px
 
 html
-  //background: hsl(230, 10%, 15%)
   background-color: hsl(20.52, 35.59%, 22.13%)
   background-color: hsl(20, 25%, 25%)
   background-position: 50% 0, 50% 0, 50% 0
   background-image: url("bg_woven.png"), radial-gradient(1200px 2000px, rgba(0,0,0, 0), rgba(0,0,0, 0.6)), linear-gradient(rgba(0,0,0, 0) 800px, rgba(0,0,0, 0.3) 1200px)
-
   background-size: 128px, 100% 2000px, 100% 100%
   background-repeat: repeat, no-repeat, no-repeat
   background-attachment: scroll, fixed, fixed, fixed
@@ -98,7 +88,6 @@ body
   cursor: default
   transition: padding 0.2s
   padding-top: 114px
-  +prefix(hypens, auto)
 
   +print
   &.print
@@ -110,12 +99,10 @@ p
   margin-top: 0
   margin-bottom: 0
 
-
 img
   max-width: 100%
   height: auto
   border: none
-
 
 h1
   font-size: 2.5em
@@ -123,19 +110,11 @@ h1
   line-height: 1
   margin: 0 auto
   padding-bottom: 15px
-  //margin: 20px auto 5px auto
-  //padding: 0 0.5em
   max-width: 18em
   text-align: center
   color: rgba(black, 0.85)
-
   +prefix(text-stroke, 0.4px black)
-
   text-shadow: 0 0 9px rgba(#9b7b4c, 0.6)
-  //text-shadow: 0 0 12px rgba($text-color, 0.3)
-
-  //text-shadow: 0 0 6px rgba(155,123,76, 0.6)
-  //column-span: all // Workaround for using h1s on images
 
 h2
   font-family: PlainBlack
@@ -149,12 +128,10 @@ h3
 ul
   margin-top: 0
 
-
 .background-overlay
   position: absolute
   width: 100%
   pointer-events: none
-
 
 .ornament, hr
   text-align: center
@@ -164,10 +141,9 @@ ul
   color: #8638
   text-shadow: 0 0 15px #b858
   +prefix(user-select, none)
+  
   > span
     display: inline-block
-
-
 
 #header
   background: transparent url("style/leather_bg_2x.png") 50% 100% repeat-x
@@ -184,17 +160,12 @@ ul
   right: 0
 
   a
-    // mix-blend-mode: screen
     text-decoration: none
     font-size: 2em
     line-height: 1.2em
     color: transparent
     background-clip: text
-    // text-shadow: 0 1px 10px #fd76, 0 1px 3px #fd76
-    background-image: linear-gradient(to right,#46252386 0,           #cb9b51 22%,    #f6e27a 45%,     #f6f2c0 50%,    #f6e27a 55%,    #cb9b51 78%,    #46252396 100%    )
-    // +prefix(text-stroke, 0.4px black)
-
-
+    background-image: linear-gradient(to right, #46252386 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #46252396 100%)
 
 .frontpage
   border-image-slice: 350 350 350 350 fill
@@ -206,6 +177,7 @@ ul
 
   figure
     margin: 0
+    
     img
       image-rendering: pixelated
 
@@ -213,14 +185,7 @@ ul
     border: none
     padding: 0
 
-
-
 .eventyr
-  //border-image-slice: 350 350 350 350 fill
-  //border-image-width: 200px
-  //border-image-outset: 6.7px 7.7px 10.2px 7.7px
-  //border-image-repeat: repeat
-  // text-shadow: 0 0 8px #9b7b4c
   background: #e3c5a1 url(/style/bg_eventyr_2x.png) 50% 0
   background-size: 256px
   box-shadow: 0 0 10px 6px rgba(0,0,0,0.6)
@@ -269,7 +234,7 @@ ul
       text-shadow: 0 0 3px #7539
       font-size: 110%
 
-    // Snipp snapp snute
+  // Snipp snapp snute
   .story p:last-of-type
       font-weight: inherit
       font-family: "FellEnglish-SC"
@@ -277,7 +242,6 @@ ul
       font-size: 110%
       text-align: center
       margin: 1.2em
-
 
   .nonono
     &:before,
@@ -301,7 +265,6 @@ ul
     margin-top: -10px
     background: radial-gradient(closest-side, rgba(white, 0.3), transparent)
     transform: scale(1.1)
-    // padding: 20px 20px 0 20px
 
   h1, h2, h3, p
     +prefix(user-select, auto)
@@ -320,7 +283,6 @@ ul
     font-size: $line-height * 4.8
     float: left
     line-height: 1
-    // margin-left: -40px
     margin-right: 3px
     margin-bottom: -0.15em
     margin-top: 0.023em
@@ -329,12 +291,11 @@ ul
     display: flex
     position: relative
     padding: 10px 30px 5px 30px
-    //margin: 30px 0
     gap: 20px
 
     &:before,
     &:after
-      //content: ""
+      content: ""
       display: block
       position: absolute
       left: 30px
@@ -347,7 +308,6 @@ ul
 
     &:after
       bottom: 0
-
 
   figure
     clear: both
@@ -382,6 +342,7 @@ ul
     text-shadow: 0 0 6px rgb(155,123,76)
     text-align: center
     font-family: FellEnglish-SC, FellEnglish, Georgia, serif
+    
     +print
       text-shadow: none
 
@@ -392,7 +353,6 @@ ul
   &
     +print
       padding: 0
-
 
     hr
       border: none
@@ -435,13 +395,11 @@ a
   p &
     text-decoration: underline
 
-
 #site-footer
   display: block
   text-decoration: none
   margin: 50px auto 40px auto
   max-width: 130px
-
 
 .singlecategory
   padding-bottom: 30px
@@ -496,7 +454,6 @@ a
       img
         height: 130px
 
-
 .tags
   display: grid
   grid-template-columns: 1fr 1fr 1fr
@@ -521,7 +478,6 @@ a
       transform: rotate(90deg)
       font-size: 22px
 
-
 #related
 
   .category
@@ -530,8 +486,6 @@ a
   +print
     display: none
 
-
-// Definition lists
 dfn
   font-style: inherit
   position: relative
@@ -560,7 +514,6 @@ p.intro
   + .ornament
     margin-bottom: 0.5em
 
-
 // PRINT AFFORDANCES
 +print
   *
@@ -572,7 +525,6 @@ p.intro
     font-size: 14px
     line-height: 22px
     padding-top: 30px
-
 
 // LYDBOK
 #lydbok
@@ -636,10 +588,6 @@ p.intro
       transform   : rotate(180deg)
       border-width: $half-size $btn-size $half-size 0
 
-
-.category
-  //display: flex
-
 .forhåndsvisninger
   --grid-layout-gap: 20px
   --grid-column-count: 3
@@ -654,7 +602,6 @@ p.intro
   grid-gap: var(--grid-layout-gap)
 
   padding: 20px
-
 
 .forhåndsvisning
   display: inline-block
@@ -677,7 +624,6 @@ p.intro
 
   h3
     margin-top: 0
-
 
 .gold
   +prefix(font-smoothing, antialiased)
