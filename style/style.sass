@@ -85,7 +85,6 @@ html
 body
   margin: 0
   font: 400 22px/#{$line-height} FellEnglish, Georgia, serif
-  cursor: default
   transition: padding 0.2s
   image-rendering: pixelated
 
@@ -225,6 +224,17 @@ ul
     +print
       text-shadow: none
 
+    sup
+      line-height: 1
+
+      a
+        text-decoration: none
+        display: inline-block
+        background: #0002
+        padding: 0 6px
+        margin: 0 1px
+        border-radius: 3px
+
     em
       display: block
       font-style: inherit
@@ -271,9 +281,12 @@ ul
     background: radial-gradient(closest-side, rgba(white, 0.3), transparent)
     padding-top: 20px
 
+    img
+      width: 100%
+      height: auto
+
   h1, h2, h3, p
     +prefix(user-select, auto)
-    cursor: text
     margin-left: 7.5%
     margin-right: 7.5%
 
@@ -397,6 +410,7 @@ ul
   align-items: center
   justify-content: center
   gap: 20px
+  filter: drop-shadow(0 2px 3px black)
 
   svg
     height: 160px

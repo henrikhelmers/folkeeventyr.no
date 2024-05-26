@@ -8,7 +8,6 @@ tags:
   troll
 ---
 
-<section markdown='1'>
 **Det var en gang** en konge og en dronning som ingen barn hadde, og det
 tok de seg så nær av at de nesten ikke hadde en glad stund.
 
@@ -33,10 +32,7 @@ Da tiden kom, ble dronningen liggende og fikk et vakkert pikebarn; året
 etter gikk det like ens, og tredje året også. Kongen og dronningen var
 så glade at det ikke var måte på det; men så glad kongen var, husket han
 enda på å sette vakt for stuedøren.
-</section>
 
-
-<section markdown='1'>
 Da kongsdøtrene vokste til, ble de både vakre og vene, og godt og vel
 hadde de det i alle måter. Det eneste var at de ikke fikk komme ut og
 leke seg, de som andre barn; men alt de tagg og ba foreldrene, og alt de
@@ -59,13 +55,9 @@ gå inn igjen, fikk de øye på en stor rose borte i den andre enden av
 hagen. Den var mange ganger vakrere enn alt det andre de hadde funnet,
 så den måtte de endelig ha. Men med det samme de bukket seg og skulle ta
 rosen, kom det en diger, tett snefloke, og borte var de.
-</section>
-
-
 
 {% include image.html path="erik_werenskiold-de_tre_kongsdøtre_i_berget_det_blaa.png"  %}
 
-<section markdown='1'>
 Det ble stor sorg over hele landet, og kongen lot lyse opp på alle
 kirkebakker, at den som kunne frelse prinsessene, skulle få halve riket
 og gullkronen hans og hvilken av dem han ville til kone. Det var nok av
@@ -620,4 +612,3 @@ bryllup med den yngste kongsdatteren. Og der drakk de og turte både
 stivt og sterkt, for ture kunne de alle, om de ikke kunne frelse
 kongsdøtrene; og har de ikke avdrukket, så sitter de vel og drikker og
 turer ennå.
-</section>
