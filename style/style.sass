@@ -74,12 +74,12 @@ $line-height: 32px
 
 html
   background-color: hsl(20.52, 35.59%, 22.13%)
-  background-color: hsl(20, 25%, 25%)
-  background-position: 50% 0, 50% 0, 50% 0
-  background-image: url("bg_woven.png"), radial-gradient(1200px 2000px, rgba(0,0,0, 0), rgba(0,0,0, 0.6)), linear-gradient(rgba(0,0,0, 0) 800px, rgba(0,0,0, 0.3) 1200px)
-  background-size: 128px, 100% 2000px, 100% 100%
-  background-repeat: repeat, no-repeat, no-repeat
-  background-attachment: scroll, fixed, fixed, fixed
+  // background-color: hsl(20, 25%, 25%)
+  // background-position: 50% 0, 50% 0, 50% 0
+  // background-image: url("bg_woven.png"), radial-gradient(1200px 2000px, rgba(0,0,0, 0), rgba(0,0,0, 0.6)), linear-gradient(rgba(0,0,0, 0) 800px, rgba(0,0,0, 0.3) 1200px)
+  // background-size: 128px, 100% 2000px, 100% 100%
+  // background-repeat: repeat, no-repeat, no-repeat
+  // background-attachment: scroll, fixed, fixed, fixed
   color: white
 
 body
@@ -87,7 +87,8 @@ body
   font: 400 22px/#{$line-height} FellEnglish, Georgia, serif
   cursor: default
   transition: padding 0.2s
-  padding-top: 114px
+  image-rendering: pixelated
+
 
   +print
   &.print
@@ -128,11 +129,6 @@ h3
 ul
   margin-top: 0
 
-.background-overlay
-  position: absolute
-  width: 100%
-  pointer-events: none
-
 .ornament, hr
   text-align: center
   font-family: FellFlowers
@@ -141,31 +137,31 @@ ul
   color: #8638
   text-shadow: 0 0 15px #b858
   +prefix(user-select, none)
-  
+
   > span
     display: inline-block
 
 #header
-  background: transparent url("style/leather_bg_2x.png") 50% 100% repeat-x
+  background-image: url("leather_bg_2x.png")
   background-size: 512px 114px
   height: 114px
   text-align: center
   display: flex
   align-items: center
   justify-content: center
-  position: fixed
-  z-index: 1
   top: 0
   left: 0
   right: 0
 
   a
-    text-decoration: none
-    font-size: 2em
-    line-height: 1.2em
-    color: transparent
-    background-clip: text
-    background-image: linear-gradient(to right, #46252386 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #46252396 100%)
+    display: block
+    margin: 10px
+    width: 100%
+    max-width: 840px
+    height: 55px
+    background-image: url("logo.png")
+    background-size: 342px auto
+    background-repeat: no-repeat
 
 .frontpage
   border-image-slice: 350 350 350 350 fill
@@ -177,9 +173,6 @@ ul
 
   figure
     margin: 0
-    
-    img
-      image-rendering: pixelated
 
   +print
     border: none
@@ -188,11 +181,10 @@ ul
 .eventyr
   background: #e3c5a1 url(/style/bg_eventyr_2x.png) 50% 0
   background-size: 256px
-  box-shadow: 0 0 10px 6px rgba(0,0,0,0.6)
+  box-shadow: 0 0 10px 6px rgba(0,0,0,0.6), inset 0 0 0 1px #794717
   border-radius: 10px
   color: #210
   position: relative
-  border: 1px solid #794717
   max-width: 840px
   margin: 0 auto
   box-sizing: border-box
@@ -262,9 +254,8 @@ ul
 
 
   .storyimage
-    margin-top: -10px
     background: radial-gradient(closest-side, rgba(white, 0.3), transparent)
-    transform: scale(1.1)
+    padding-top: 20px
 
   h1, h2, h3, p
     +prefix(user-select, auto)
@@ -323,7 +314,6 @@ ul
 
     img
       display: block
-      image-rendering: pixelated
       margin: auto
 
     figcaption
@@ -342,7 +332,7 @@ ul
     text-shadow: 0 0 6px rgb(155,123,76)
     text-align: center
     font-family: FellEnglish-SC, FellEnglish, Georgia, serif
-    
+
     +print
       text-shadow: none
 
