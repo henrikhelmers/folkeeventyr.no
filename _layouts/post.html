@@ -7,7 +7,7 @@ layout: default
     {% if page.image %}
       {% assign image = site.data.images[page.image] %}
       <figure class="storyimage">
-        <img src="/images/{{page.image}}" alt="{{image.title}}">
+        <img src="{{ site.baseurl }}/images/{{page.image}}" alt="{{image.title}}">
         <figcaption>
           <div>{{image.title}}</div>
           <div class="byline">{{image.artist}}</div>
@@ -39,7 +39,7 @@ layout: default
     {% if page.audio %}
       <div id="lydbok">
         <audio id="lydbok-audio">
-          <source src="/audio/{{page.audio}}">
+          <source src="{{ site.baseurl }}/audio/{{page.audio}}">
         </audio>
         <button id="lydbok-kontroll">
           <span class="play-grafikk"></span>
@@ -86,7 +86,7 @@ layout: default
     <h2>Illustrasjoner</h2>
     {% for image in page.images %}
       {% assign imageData = site.data.images[image] %}
-        <img src="/images/{{image}}">
+        <img src="{{ site.baseurl }}/images/{{image}}">
       {% if imageData.title %}
         <h3>{{imageData.title}}</h3>
       {% endif %}
