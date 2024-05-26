@@ -74,13 +74,13 @@ $line-height: 32px
 
 html
   background-color: hsl(20.52, 35.59%, 22.13%)
+  color: hsl(33, 57%, 60%)
   // background-color: hsl(20, 25%, 25%)
   // background-position: 50% 0, 50% 0, 50% 0
   // background-image: url("bg_woven.png"), radial-gradient(1200px 2000px, rgba(0,0,0, 0), rgba(0,0,0, 0.6)), linear-gradient(rgba(0,0,0, 0) 800px, rgba(0,0,0, 0.3) 1200px)
   // background-size: 128px, 100% 2000px, 100% 100%
   // background-repeat: repeat, no-repeat, no-repeat
   // background-attachment: scroll, fixed, fixed, fixed
-  color: white
 
 body
   margin: 0
@@ -95,6 +95,9 @@ body
     background: white !important
     color: black
     padding: 5px 0
+
+a
+  color: inherit
 
 p
   margin-top: 0
@@ -200,6 +203,17 @@ ul
     border-radius: 2px
     box-shadow: 0 0 4px 4px rgba(128,73,26,0.3),0 0 20px 8px rgba(128,73,26,0.3) inset
     pointer-events: none
+
+  a
+    text-underline-offset: 3px
+    +prefix(transition, text-shadow 0.3s)
+
+    &:hover
+      +prefix(transition-duration, 0s)
+      text-shadow: 0 0 5px #ffe,  0 0 10px #feb,  0 0 15px #fc6
+
+    p &
+      text-decoration: underline
 
   p
     text-shadow: 0 0 4px rgba(155, 123, 76, 1)
@@ -373,23 +387,24 @@ ul
       text-decoration: none
       vertical-align: -0.15em
 
-a
-  color: inherit
-  text-underline-offset: 3px
-  +prefix(transition, text-shadow 0.3s)
-
-  &:hover
-    +prefix(transition-duration, 0s)
-    text-shadow: 0 0 5px #ffe,  0 0 10px #feb,  0 0 15px #fc6
-
-  p &
-    text-decoration: underline
-
 #site-footer
-  display: block
+  text-align: center
+  margin: 50px
+
+.sjøbanan
+  display: flex
   text-decoration: none
-  margin: 50px auto 40px auto
-  max-width: 130px
+  align-items: center
+  justify-content: center
+  gap: 20px
+
+  svg
+    height: 160px
+    width: 160px
+    fill: currentcolor
+
+  span
+    text-align: left
 
 .singlecategory
   padding-bottom: 30px
