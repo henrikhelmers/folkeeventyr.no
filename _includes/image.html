@@ -4,7 +4,7 @@
   {% assign imagePaths = imagePaths[0] %}
   {% assign image = site.data.images[imagePaths] %}
   <figure class="{{include.class}}">
-    <img src="/images/{{imagePaths}}">
+    <img src="{{ site.baseurl }}/images/{{imagePaths}}">
     <figcaption>
       <div>{{image.title}}</div>
       <div class="byline">{{image.artist}}</div>
@@ -17,7 +17,7 @@
     {% for imagePath in imagePaths %}
       {% assign image = site.data.images[imagePath] %}
       <figure class="{{include.class}}">
-        <img src="/images/{{imagePath}}">
+        <img src="{{ site.baseurl }}/images/{{imagePath}}">
         <figcaption>
           <div>{{image.title}}</div>
           <div class="byline">{{image.artist}}</div>

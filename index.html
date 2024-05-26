@@ -11,15 +11,15 @@ layout: default
 <article class="eventyr">
 
   {% include image.html path="gamle/alle_eventyr.png" %}
-  
+
   <h1>folkeeventyr.no</h1>
   <p class="intro">Spennende norske folkeeventyr for store og små med illustrasjoner fra Asbjørnsen og Moe sin tid.</p>
   <div class="ornament" aria-hidden="true">
     <span>ACBCD</span>
   </div>
-  
+
   <h3>
-    <a href="/images/">Le images</a>
+    <a href="{{ site.baseurl }}/images/">Le images</a>
   </h3>
   <section class="tags">
     {% assign sorted_tags = tags | split: ' ' | sort %}
@@ -28,7 +28,7 @@ layout: default
       {% assign category = items[1] | replace: '##', ' ' %}
       {% assign posts = site.posts | sort %}
       {% assign posts_from_category = posts | where_exp: "post", "post.tags contains category" %}
-  
+
       <div class="tag">
         <a href="{{ site.baseurl }}/tag/{{ category }}">
           <h2>{{ category | capitalize }}</h2>
