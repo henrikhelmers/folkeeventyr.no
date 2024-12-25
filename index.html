@@ -25,13 +25,13 @@ layout: default
     {% assign sorted_tags = tags | split: ' ' | sort %}
     {% for tag in sorted_tags %}
       {% assign items = tag | split: '###' %}
-      {% assign category = items[1] | replace: '##', ' ' %}
+      {% assign tagSlug = items[1] | replace: '##', ' ' %}
       {% assign posts = site.posts | sort %}
-      {% assign posts_from_category = posts | where_exp: "post", "post.tags contains category" %}
+      {% assign posts_from_category = posts | where_exp: "post", "post.tags contains tagSlug" %}
 
       <div class="tag">
-        <a href="{{ site.baseurl }}/tag/{{ category }}">
-          <h2>{{ category | capitalize }}</h2>
+        <a href="{{ site.baseurl }}/{{ tagSlug }}">
+          <h2>{{ tagSlug | capitalize }}</h2>
         </a>
         {% for post in posts_from_category %}
           <a href="{{ post.url | prepend: site.baseurl }}">

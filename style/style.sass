@@ -84,9 +84,7 @@ body
   transition: padding 0.2s
   image-rendering: pixelated
 
-
   +print
-  &.print
     background: white !important
     color: black
     padding: 5px 0
@@ -139,64 +137,50 @@ ul
   > span
     display: inline-block
 
-#header
+header, footer
+  div
+    max-width: 840px
+    margin: 0 auto
+    padding-top: 20px
+
+header
   background-image: url("leather_bg_2x.png")
   background-size: 512px 114px
   height: 114px
-  text-align: center
-  display: flex
-  align-items: center
-  justify-content: center
-  top: 0
+  position: fixed
   left: 0
   right: 0
+  top: 0
+  z-index: 1
 
   a
     display: block
-    margin: 10px
     width: 100%
-    max-width: 840px
     height: 55px
     background-image: url("logo.png")
     background-size: 342px auto
     background-repeat: no-repeat
 
-.frontpage
-  border-image-slice: 350 350 350 350 fill
-  border-image-width: 200px
-  border-image-outset: 6.7px 7.7px 10.2px 7.7px
-  border-image-repeat: repeat
-  box-sizing: border-box
-  padding: 15px
-
-  figure
-    margin: 0
-
-  +print
-    border: none
-    padding: 0
-
-.eventyr
+article
   background: #e3c5a1 url(/style/bg_eventyr_2x.png) 50% 0
   background-size: 256px
-  box-shadow: 0 2px 50px black, inset 0 0 0 1px #794717
-  border-radius: 10px
+  box-shadow: 0 2px 20px 10px black, inset 0 0 2px 1px #462300ee
   color: #210
   position: relative
   max-width: 840px
-  margin: 0 auto
+  margin: 120px auto
   box-sizing: border-box
 
   &:after
     content: ""
     position: absolute
-    left: 8px
-    top: 8px
-    right: 8px
-    bottom: 8px
-    border: 1px solid rgba(124, 91, 59, 0.3)
+    left: 6px
+    top: 6px
+    right: 6px
+    bottom: 6px
+    border: 1px solid rgba(98, 49, 0, 0.3)
     border-radius: 2px
-    box-shadow: 0 0 4px 4px rgba(128,73,26,0.3),0 0 20px 8px rgba(128,73,26,0.3) inset
+    box-shadow: 0 0 4px 4px rgba(83, 39, 0, 0.3),0 0 50px 10px rgba(92, 43, 0, 0.4) inset
     pointer-events: none
 
   a
@@ -396,9 +380,22 @@ ul
       text-decoration: none
       vertical-align: -0.15em
 
-#site-footer
-  text-align: center
-  margin: 50px
+
+.frontpage
+  border-image-slice: 350 350 350 350 fill
+  border-image-width: 200px
+  border-image-outset: 6.7px 7.7px 10.2px 7.7px
+  border-image-repeat: repeat
+  box-sizing: border-box
+  padding: 15px
+
+  figure
+    margin: 0
+
+  +print
+    border: none
+    padding: 0
+
 
 .sjøbanan
   display: flex
@@ -486,6 +483,7 @@ ul
       line-height: 19px
       margin-top: 20px
       max-width: 160px
+      text-decoration: none
 
     .ornament
       margin-top: 8px

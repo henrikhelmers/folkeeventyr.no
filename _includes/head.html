@@ -5,7 +5,8 @@
   <title>
     {% if page.type == "tag" %}{{"Eventyr om "}}{% endif %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
   </title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/style/style.css"">
+  {% assign random_number = site.time | date: '%s' | plus: 1000 %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/style/style.css?v={{ random_number }}">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X9G6HND6WV"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
