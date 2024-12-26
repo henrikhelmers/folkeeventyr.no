@@ -621,19 +621,23 @@ p.intro
   vertical-align: top
   padding: 20px 10px
   padding-top: 220px
-  border-radius: 3px
-  background-color: #fff3
+  background-color: #fff2
   background-size: 105% auto
   background-repeat: no-repeat
   background-position: 50% -5px
   text-shadow: none !important
-  box-shadow: 0 0 0 1px #3106 inset, 0 1px 2px #1006, 0 -5px 20px #3102 inset
+  box-shadow: 0 0 0 1px #3104, 0 1px 3px #1006, 0 -5px 20px #3102 inset
   text-decoration: none
-  transition: background-color 0.5s
+  transition: 0.5s
 
   &:hover
-    background-color: #fff6
+    background-color: #fff4
+    transition-duration: 0.1s
+
+  &:active
+    box-shadow: 0 0 1px 1px #3104, 0 0 2px #1006, 0 -5px 20px #3102 inset
     transition-duration: 0s
+    transform: translateY(1px)
 
   h3
     margin-top: 0

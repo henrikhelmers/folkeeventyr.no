@@ -38,15 +38,15 @@ type: tag
         <a href="{{ post.url }}" class="forhåndsvisning" style="background-image: url('/images/{{post.image}}')">
           <h3>{{ post.title }}</h3>
           <p>
-            Et eventyr om
+            Med
             {% for tag in post.tags %}
               {% if forloop.length == 1 or forloop.index == forloop.length %}
-                {% include taglink.html tag=tag pageTag=page.tag nolinks=true %}
+                {{ tag }}.
               {% else %}
                 {% if forloop.rindex == 2 %}
-                  {% include taglink.html tag=tag pageTag=page.tag nolinks=true %} og
+                {{ tag }} og
                 {% else %}
-                  {% include taglink.html tag=tag pageTag=page.tag nolinks=true %},
+                  {{ tag }},
                 {% endif %}
               {% endif %}
             {% endfor %}
