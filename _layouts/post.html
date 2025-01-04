@@ -13,6 +13,10 @@ layout: default
           <div class="byline">{{image.artist}}</div>
         </figcaption>
       </figure>
+    {% else %}
+    <br/>
+    <br/>
+    <br/>
     {% endif %}
 
     <h1>{{ page.title }}</h1>
@@ -83,23 +87,25 @@ layout: default
       <span>RQPPOS</span>
     </div>
 
-    <h2>Illustrasjoner</h2>
-    {% for image in page.images %}
-      {% assign imageData = site.data.images[image] %}
-        <img src="{{ site.baseurl }}/images/{{image}}">
-      {% if imageData.title %}
-        <h3>{{imageData.title}}</h3>
-      {% endif %}
-      <p>
-        Laget av {{imageData.artist}} med {{imageData.technique }}
-        på {{imageData.material}} i {{imageData.year}}.
-        Originalen er {{imageData.height}} høy og {{imageData.width}}
-        bred og eies av {{imageData.eier}}.
-      <p>
-    {% endfor %}
+    {% if page.images %}
+      <h2>Illustrasjoner</h2>
+      {% for image in page.images %}
+        {% assign imageData = site.data.images[image] %}
+          <img src="{{ site.baseurl }}/images/{{image}}">
+        {% if imageData.title %}
+          <h3>{{imageData.title}}</h3>
+        {% endif %}
+        <p>
+          Laget av {{imageData.artist}} med {{imageData.technique }}
+          på {{imageData.material}} i {{imageData.year}}.
+          Originalen er {{imageData.height}} høy og {{imageData.width}}
+          bred og eies av {{imageData.eier}}.
+        <p>
+      {% endfor %}
 
-    <div class="ornament" aria-hidden="true">
-      <span>RQPPOS</span>
-    </div>
+      <div class="ornament" aria-hidden="true">
+        <span>RQPPOS</span>
+      </div>
+    {% endif %}
 
   </article>

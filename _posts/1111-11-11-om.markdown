@@ -1,16 +1,9 @@
 ---
 layout: post
 title:  Om folkeeventyr.no
-image: /images/erik_werenskiold-bilde_asbjørnsen.png
 ---
 
 Nettsiden folkeeventyr.no er et forsøk på å ta norske eventyr inn i den
 digitale verden.
 
-.
 
-.
-
-
-## Pikselert
-Et ennmannsfirma som lager digitale opplevelser. Besøk oss på pikselert.no.
