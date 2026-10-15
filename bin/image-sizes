@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Skriver pikselstørrelsen til alle bilder i images/ til _data/image_sizes.yml.
+# Kjør på nytt når bilder legges til eller endres.
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+{
+  echo "# Generert av bin/image-sizes. Ikke rediger for hånd."
+  find images -type f \( -name '*.png' -o -name '*.jpg' \) | LC_ALL=C sort | while read -r file; do
+    magick identify -format "${file#images/}: {w: %w, h: %h}\n" "$file[0]"
+  done
+} > _data/image_sizes.yml

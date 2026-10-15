@@ -18,8 +18,10 @@ type: tag
 
     {% if image_post.image %}
       {% assign image = site.data.images[image_post.image] %}
+      {% assign size_key = image_post.image | prepend: "/" | replace: "//", "/" | remove_first: "/" %}
+      {% assign size = site.data.image_sizes[size_key] %}
       <figure class="storyimage">
-        <img src="{{ site.baseurl }}/images/{{image_post.image}}" alt="{{ image.title | default: image_post.title | escape }}" fetchpriority="high">
+        <img src="{{ site.baseurl }}/images/{{image_post.image}}" alt="{{ image.title | default: image_post.title | escape }}" width="{{ size.w }}" height="{{ size.h }}" fetchpriority="high">
         <figcaption>
           <div>{{image.title}}</div>
           <div class="byline">{{image.artist}}</div>

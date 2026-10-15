@@ -6,8 +6,10 @@ layout: default
 
     {% if page.image %}
       {% assign image = site.data.images[page.image] %}
+      {% assign size_key = page.image | prepend: "/" | replace: "//", "/" | remove_first: "/" %}
+      {% assign size = site.data.image_sizes[size_key] %}
       <figure class="storyimage">
-        <img src="{{ site.baseurl }}/images/{{page.image}}" alt="{{ image.title | default: page.title | escape }}" fetchpriority="high">
+        <img src="{{ site.baseurl }}/images/{{page.image}}" alt="{{ image.title | default: page.title | escape }}" width="{{ size.w }}" height="{{ size.h }}" fetchpriority="high">
         <figcaption>
           <div>{{image.title}}</div>
           <div class="byline">{{image.artist}}</div>
@@ -91,7 +93,9 @@ layout: default
       <h2>Illustrasjoner</h2>
       {% for image in page.images %}
         {% assign imageData = site.data.images[image] %}
-          <img src="{{ site.baseurl }}/images/{{image}}" alt="{{ imageData.title | escape }}" loading="lazy">
+        {% assign size_key = image | prepend: "/" | replace: "//", "/" | remove_first: "/" %}
+        {% assign size = site.data.image_sizes[size_key] %}
+          <img src="{{ site.baseurl }}/images/{{image}}" alt="{{ imageData.title | escape }}" width="{{ size.w }}" height="{{ size.h }}" loading="lazy" decoding="async">
         {% if imageData.title %}
           <h3>{{imageData.title}}</h3>
         {% endif %}

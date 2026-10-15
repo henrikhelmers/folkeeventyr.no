@@ -5,10 +5,11 @@ layout: default
 <article class="eventyr wrapper">
 
     {% assign image = page %}
+    {% assign size = site.data.image_sizes[page.image] %}
 
 <section class="bildeseksjon">
     <figure class="{{include.class}}">
-      <img src="/images/{{page.image}}" alt="{{ page.title | escape }}">
+      <img src="/images/{{page.image}}" alt="{{ page.title | escape }}" width="{{ size.w }}" height="{{ size.h }}">
       <figcaption>
         <div>{{page.title}}</div>
         <div class="byline">{{image.artist}}</div>

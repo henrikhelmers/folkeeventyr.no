@@ -6,8 +6,10 @@ layout: default
 {% for image in site.data.images %}
   <div style="display: inline-block; max-width: 200px">
     {% assign imageData = image[1] %}
+    {% assign path = image[0] %}
+    {% assign size = site.data.image_sizes[path] %}
 
-    <img src="/images/{{image[0]}}" alt="{{ imageData.title | escape }}" loading="lazy">
+    <img src="/images/{{image[0]}}" alt="{{ imageData.title | escape }}" width="{{ size.w }}" height="{{ size.h }}" loading="lazy" decoding="async">
 
     {% if imageData.title %}
       <h3>{{imageData.title}}</h3>

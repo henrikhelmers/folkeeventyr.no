@@ -11,6 +11,8 @@ highlighter: none
 incremental: false
 safe: true
 strict_front_matter: true
+exclude:
+  - bin
 
 
 # Build settings
