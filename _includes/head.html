@@ -1,10 +1,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <title>
-    {% if page.type == "tag" %}{{"Eventyr om "}}{% endif %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
-  </title>
+  {% capture page_title %}{% if page.type == "tag" %}Eventyr om {{ page.tag }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+  {% capture page_description %}{% if page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+  {% if page.image %}{% assign og_image = page.image | prepend: "/images/" | replace: "//", "/" %}{% else %}{% assign og_image = site.og_image %}{% endif %}
+  {% assign og_image_alt = site.data.images[page.image].title %}
+  <meta name="description" content="{{ page_description | escape }}">
+  <title>{{ page_title }}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.layout == "post" %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description" content="{{ page_description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ og_image | absolute_url }}">
+  {% if og_image_alt %}<meta property="og:image:alt" content="{{ og_image_alt | escape }}">{% endif %}
+  <meta name="twitter:card" content="summary_large_image">
   {% assign random_number = site.time | date: '%s' | plus: 1000 %}
   <link rel="stylesheet" href="{{ site.baseurl }}/style/style.css?v={{ random_number }}">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X9G6HND6WV"></script>

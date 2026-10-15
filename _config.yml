@@ -2,8 +2,9 @@
 title: Norske Folkeeventyr
 # email: contact@pikselert.com
 description: Norske folkeeventyr for barn og voksne
+og_image: /images/_og.jpg
 # baseurl: ""
-# url: "https://folkeeventyr.no"
+url: "https://folkeeventyr.no"
 permalink: /:title/
 
 highlighter: none
