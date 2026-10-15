@@ -19,7 +19,7 @@ type: tag
     {% if image_post.image %}
       {% assign image = site.data.images[image_post.image] %}
       <figure class="storyimage">
-        <img src="/images/{{image_post.image}}" alt="{{image.title}}">
+        <img src="{{ site.baseurl }}/images/{{image_post.image}}" alt="{{ image.title | default: image_post.title | escape }}" fetchpriority="high">
         <figcaption>
           <div>{{image.title}}</div>
           <div class="byline">{{image.artist}}</div>
@@ -35,7 +35,7 @@ type: tag
     <div class="forhåndsvisninger">
       {% for post in posts %}
 
-        <a href="{{ post.url }}" class="forhåndsvisning" style="background-image: url('/images/{{post.image}}')">
+        <a href="{{ post.url }}" class="forhåndsvisning"{% if post.image %} style="background-image: url('/images/{{post.image}}')"{% endif %}>
           <h3>{{ post.title }}</h3>
           <p>
             Med

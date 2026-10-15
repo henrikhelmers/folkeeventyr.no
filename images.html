@@ -7,7 +7,7 @@ layout: default
   <div style="display: inline-block; max-width: 200px">
     {% assign imageData = image[1] %}
 
-    <img src="/images/{{image[0]}}">
+    <img src="/images/{{image[0]}}" alt="{{ imageData.title | escape }}" loading="lazy">
 
     {% if imageData.title %}
       <h3>{{imageData.title}}</h3>

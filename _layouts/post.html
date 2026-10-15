@@ -7,7 +7,7 @@ layout: default
     {% if page.image %}
       {% assign image = site.data.images[page.image] %}
       <figure class="storyimage">
-        <img src="{{ site.baseurl }}/images/{{page.image}}" alt="{{image.title}}">
+        <img src="{{ site.baseurl }}/images/{{page.image}}" alt="{{ image.title | default: page.title | escape }}" fetchpriority="high">
         <figcaption>
           <div>{{image.title}}</div>
           <div class="byline">{{image.artist}}</div>
@@ -45,7 +45,7 @@ layout: default
         <audio id="lydbok-audio">
           <source src="{{ site.baseurl }}/audio/{{page.audio}}">
         </audio>
-        <button id="lydbok-kontroll">
+        <button id="lydbok-kontroll" aria-label="Spill av eller pause lydboken">
           <span class="play-grafikk"></span>
         </button>
 
@@ -64,11 +64,11 @@ layout: default
               playGrafikkKlasser.remove("stopp");
               playGrafikkKlasser.add("til-play");
               lydbokAudio.pause();
-              _gaq.push(["_trackEvent", "Audio", "Pause", "{{page.title}}"]);
+              gtag("event", "pause", { event_category: "Audio", event_label: {{ page.title | jsonify }} });
             } else if (!playGrafikkKlasser.contains("til-play")) {
               playGrafikkKlasser.add("stopp");
               lydbokAudio.play();
-              _gaq.push(["_trackEvent", "Audio", "Play", "{{page.title}}"]);
+              gtag("event", "play", { event_category: "Audio", event_label: {{ page.title | jsonify }} });
             }
           });
 
@@ -91,7 +91,7 @@ layout: default
       <h2>Illustrasjoner</h2>
       {% for image in page.images %}
         {% assign imageData = site.data.images[image] %}
-          <img src="{{ site.baseurl }}/images/{{image}}">
+          <img src="{{ site.baseurl }}/images/{{image}}" alt="{{ imageData.title | escape }}" loading="lazy">
         {% if imageData.title %}
           <h3>{{imageData.title}}</h3>
         {% endif %}
