@@ -56,7 +56,8 @@
     textNode.appendChild(textEl);
   }
 
-  createIntroLine(document.querySelector(".eventyr strong"));;
+  const introLine = document.querySelector(".eventyr strong");
+  if (introLine) createIntroLine(introLine);
   document.querySelectorAll(".gold").forEach(textNode => goldEffect(textNode));
 
   document.addEventListener("scroll", setCustomProperties, false);
