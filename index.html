@@ -2,11 +2,8 @@
 layout: default
 ---
 
-{% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag[1].size | plus: -10000 }}###{{ tag[0] | replace: ' ', '##' }}###{{ tag[1].size }}
-  {% endfor %}
-{% endcapture %}
+{% assign tag_groups = site.posts | map: "tags" | join: "," | split: "," | group_by_exp: "tag", "tag" | sort: "name" %}
+{% assign max_count = tag_groups | map: "size" | sort | last %}
 
 <article class="eventyr">
 
@@ -18,41 +15,34 @@ layout: default
     <span>ACBCD</span>
   </div>
 
-  <!--
-  <h3>
-    <a href="{{ site.baseurl }}/images/">Le images</a>
-  </h3>
-  -->
   <section class="tags">
-    {% assign sorted_tags = tags | split: ' ' | sort %}
-    {% for tag in sorted_tags %}
-      {% assign items = tag | split: '###' %}
-      {% assign tagSlug = items[1] | replace: '##', ' ' %}
-      {% assign posts = site.posts | sort %}
-      {% assign posts_from_category = posts | where_exp: "post", "post.tags contains tagSlug" %}
-
-      <div class="tag">
-        <a href="{{ site.baseurl }}/{{ tagSlug }}">
-          <h2>{{ tagSlug | capitalize }}</h2>
-        </a>
-        {% for post in posts_from_category %}
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-          </a>
-        {% endfor %}
-        <div class="ornament" aria-hidden="true">
-          <span>S</span>
-        </div>
-      </div>
+    {% for count in (1..max_count) reversed %}
+      {% for group in tag_groups %}
+        {% if group.size == count %}
+          {% assign tag_posts = site.tags[group.name] | sort %}
+          <div class="tag">
+            <a href="/{{ group.name | downcase }}/">
+              <h2>{{ group.name | slice: 0 | upcase }}{{ group.name | slice: 1, 100 }}</h2>
+            </a>
+            {% for post in tag_posts %}
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            {% endfor %}
+            <div class="ornament" aria-hidden="true">
+              <span>S</span>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </section>
 
-  {% for post in posts %}
-    {% if post.tags == empty %}
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-    {% endif %}
+  {% assign untagged_posts = site.posts | where_exp: "post", "post.tags == empty" | sort %}
+  {% for post in untagged_posts %}
+    <h2>
+      <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
   {% endfor %}
 
 </article>

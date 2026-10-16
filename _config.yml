@@ -13,18 +13,11 @@ safe: true
 strict_front_matter: true
 exclude:
   - bin
+  - README.md
 
 
 # Build settings
 # markdown: kramdown
 
-collections:
-  images:
-    output: true
-    permalink: /images/:path
-
 # plugins:
 # - jekyll-paginate
-
-tag_page_layout: tag_index
-tag_page_dir: tag

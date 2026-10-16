@@ -1,0 +1,10 @@
+{% assign credit = include.image %}
+{% if credit.title %}
+  <h3>{{ credit.title }}</h3>
+{% endif %}
+{% if credit.artist %}
+  <p>
+    Laget av {{ credit.artist }}{% if credit.technique %} med {{ credit.technique }}{% endif %}{% if credit.material %} på {{ credit.material }}{% endif %}{% if credit.year %} i {{ credit.year }}{% endif %}.
+    {% if credit.height and credit.width %}Originalen er {{ credit.height }} høy og {{ credit.width }} bred{% if credit.eier %} og eies av {{ credit.eier }}{% endif %}.{% elsif credit.eier %}Originalen eies av {{ credit.eier }}.{% endif %}
+  </p>
+{% endif %}

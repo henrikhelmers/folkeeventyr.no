@@ -1,0 +1,1 @@
+{% for item in include.items %}{% if include.links %}<a href="/{{ item | downcase }}/">{{ item }}</a>{% else %}{{ item }}{% endif %}{% if forloop.last %}{{ include.end }}{% elsif forloop.rindex == 2 %} og {% else %}, {% endif %}{% endfor %}

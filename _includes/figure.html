@@ -1,0 +1,10 @@
+{% assign figure_path = include.path | prepend: "/" | replace: "//", "/" | remove_first: "/" %}
+{% assign figure_image = site.data.images[figure_path] %}
+{% assign figure_size = site.data.image_sizes[figure_path] %}
+<figure{% if include.class %} class="{{ include.class }}"{% endif %}>
+  <img src="/images/{{ figure_path }}" alt="{{ include.alt | default: figure_image.title | default: include.fallback_alt | escape }}" width="{{ include.width | default: figure_size.w }}" height="{{ include.height | default: figure_size.h }}"{% if include.loading %} loading="{{ include.loading }}" decoding="async"{% endif %}{% if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %}>
+  <figcaption>
+    <div>{{ figure_image.title }}</div>
+    <div class="byline">{{ figure_image.artist }}</div>
+  </figcaption>
+</figure>
