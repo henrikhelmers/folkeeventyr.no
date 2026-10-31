@@ -2,8 +2,8 @@
 layout: post
 title: Presten og klokkeren
 tags:
-  konger
-  presten
+  - konger
+  - presten
 ---
 
 

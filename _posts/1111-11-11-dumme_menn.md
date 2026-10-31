@@ -2,8 +2,8 @@
 layout: post
 title:  Dumme menn og troll til kjerringer
 tags:
-  kjerringer
-  mannfolk
+  - kjerringer
+  - mannfolk
 ---
 
 

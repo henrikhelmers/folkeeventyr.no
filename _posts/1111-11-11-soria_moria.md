@@ -2,8 +2,8 @@
 layout: post
 title:  Soria Moria Slott
 tags:
-  prinsesser
-  troll
+  - prinsesser
+  - troll
 ---
 
 

@@ -3,9 +3,9 @@ layout: post
 title: Bamse Brakar
 image: /gamle/bamse_brakar.png
 tags:
-  reven
-  bjørnen
-  presten
+  - reven
+  - bjørnen
+  - presten
 ---
 
 **Det var en gang** en bonde som reiste til fjells etter et lass løv til buskapen sin om vinteren. Da han kom til løvhesjene[^1] rygget han sleden med hesten tett inntil, og gikk opp i hesja og tok til å velte løvkjerv ned på sleden. Men det var en bjørn i hesja, som hadde lagt seg i hi der, og da mannen la til å rive og romstere, så våknet bjørnen og sprang ut, like ned på sleden. 

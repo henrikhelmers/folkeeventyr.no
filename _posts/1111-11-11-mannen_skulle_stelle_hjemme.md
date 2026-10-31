@@ -2,8 +2,8 @@
 layout: post
 title: Mannen som skulle stelle hjemme
 tags:
-  kjerringer
-  grisen
+  - kjerringer
+  - grisen
 ---
 
 

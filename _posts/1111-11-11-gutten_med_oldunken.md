@@ -2,8 +2,8 @@
 layout: post
 title: Gutten med øldunken
 tags:
-  mannfolk
-  Gamle-Erik
+  - mannfolk
+  - Gamle-Erik
 ---
 
 

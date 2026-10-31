@@ -5,8 +5,8 @@ image: gamle/kullbrenneren.png
 images:
   gamle/kullbrenneren.png
 tags:
-  presten
-  konger
+  - presten
+  - konger
 ---
 
 

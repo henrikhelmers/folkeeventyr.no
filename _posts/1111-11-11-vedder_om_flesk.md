@@ -3,8 +3,8 @@ layout: post
 title: De Vedder om Flesk og Humlebol
 
 tags:
-  reven
-  bjørnen
+  - reven
+  - bjørnen
 ---
 
 

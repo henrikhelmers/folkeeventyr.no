@@ -2,10 +2,10 @@
 layout: post
 title: Per, Pål og Espen Askeladd
 tags:
-  konger
-  Per
-  Pål
-  Askeladden
+  - konger
+  - Per
+  - Pål
+  - Askeladden
 ---
 
 **Det var en gang** en mann som hadde tre sønner, Per og Pål og Espen

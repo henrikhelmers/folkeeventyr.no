@@ -2,7 +2,7 @@
 layout: post
 title:  Hvorfor Bjørnen er Stubbrumpet
 tags:
-  bjørnen
+  - bjørnen
 ---
 
 **Bjørnen møtte en gang** reven, som kom luskende med et knippe fisk han

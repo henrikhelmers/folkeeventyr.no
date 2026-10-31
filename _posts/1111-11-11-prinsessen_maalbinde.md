@@ -2,8 +2,8 @@
 layout: post
 title: Prinsessen som Ingen Kunne Målbinde
 tags:
-  prinsesser
-  Askeladden
+  - prinsesser
+  - Askeladden
 ---
 
 

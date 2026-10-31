@@ -3,7 +3,7 @@ layout: post
 title:  Den Syvende Far i Huset
 image: gamle/syvende_far.png
 tags:
-  mannfolk
+  - mannfolk
 ---
 
 

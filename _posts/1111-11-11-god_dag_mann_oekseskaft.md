@@ -2,8 +2,8 @@
 layout: post
 title: God dag, mann! - Økseskaft
 tags:
-  mannfolk
-  lensmannen
+  - mannfolk
+  - lensmannen
 ---
 
 **Det var en gang** en ferjemann som var så tunghørt at han hverken kunne

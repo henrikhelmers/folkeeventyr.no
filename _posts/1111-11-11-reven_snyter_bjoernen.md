@@ -3,8 +3,8 @@ layout: post
 title: Reven Snyter Bjørnen for Julekosten
 image:
 tags:
-  reven
-  bjørnen
+  - reven
+  - bjørnen
 ---
 
 

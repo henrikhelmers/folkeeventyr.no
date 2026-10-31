@@ -3,7 +3,7 @@ layout: post
 title:  Smørbukk
 image: gamle/smoerbukk_2.png
 tags:
-  kjerringer
+  - kjerringer
 ---
 
 

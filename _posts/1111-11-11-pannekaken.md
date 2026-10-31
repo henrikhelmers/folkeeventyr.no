@@ -5,7 +5,7 @@ image: /gamle/pannekaken.png
 images:
   - /gamle/pannekaken.png
 tags:
-  grisen
+  - grisen
 ---
 
 

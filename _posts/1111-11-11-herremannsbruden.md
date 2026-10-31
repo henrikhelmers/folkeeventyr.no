@@ -2,8 +2,8 @@
 layout: post
 title: Herremannsbruden
 tags:
-  mannfolk
-  presten
+  - mannfolk
+  - presten
 ---
 
 <section markdown='1'>

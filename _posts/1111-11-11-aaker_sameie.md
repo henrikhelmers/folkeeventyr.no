@@ -5,8 +5,8 @@ image: theodor_kittelsen-bjørnen_og_reven_de_skulde_have_åger_i_sameie.png
 images:
   - theodor_kittelsen-bjørnen_og_reven_de_skulde_have_åger_i_sameie.png
 tags:
-  bjørnen
-  reven
+  - bjørnen
+  - reven
 ---
 
 **Det var en gang** bjørnen og reven skulle ha åker i sameie. De hadde en liten bråte oppi skogen, og det første året sådde de rug.

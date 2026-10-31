@@ -2,8 +2,8 @@
 layout: post
 title: Slipp Granrot og ta i Revefot
 tags:
-  reven
-  bjørnen
+  - reven
+  - bjørnen
 ---
 
 

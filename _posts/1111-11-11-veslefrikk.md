@@ -6,7 +6,7 @@ images:
  - theodor_kittelsen-veslefrik_med_felen.png
  - theodor_kittelsen-veslefrik_med_felen_2.png
 tags:
-  lensmannen
+  - lensmannen
 ---
 
 

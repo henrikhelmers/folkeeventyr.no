@@ -2,8 +2,8 @@
 layout: post
 title: Jomfruen på glassberget
 tags:
-  Askeladden
-  konger
+  - Askeladden
+  - konger
 ---
 
 

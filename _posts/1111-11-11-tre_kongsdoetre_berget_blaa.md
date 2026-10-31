@@ -3,9 +3,9 @@ layout: post
 title: De Tre Kongsdøtre i Berget det Blå
 image: /erik_werenskiold-de_tre_kongsdøtre_i_berget_det_blaa.png
 tags:
-  konger
-  prinsesser
-  troll
+  - konger
+  - prinsesser
+  - troll
 ---
 
 **Det var en gang** en konge og en dronning som ingen barn hadde, og det

@@ -2,9 +2,9 @@
 layout: post
 title: Kari Trestakk
 tags:
-  konger
-  prinsesser
-  troll
+  - konger
+  - prinsesser
+  - troll
 ---
 
 **Det var en gang** en konge som var blitt enkemann. Etter dronningen sin hadde han en datter, som var så snill og så vakker at ingen kunne være snillere og vakrere.

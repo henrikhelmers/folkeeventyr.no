@@ -2,9 +2,9 @@
 layout: post
 title: Gjete kongens harer
 tags:
-  Askeladden
-  konger
-  prinsesser
+  - Askeladden
+  - konger
+  - prinsesser
 ---
 
 

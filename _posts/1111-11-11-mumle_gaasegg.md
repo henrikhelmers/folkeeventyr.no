@@ -2,9 +2,9 @@
 layout: post
 title: Mumle Gåsegg
 tags:
-  konger
-  kjerringer
-  Gamle-Erik
+  - konger
+  - kjerringer
+  - Gamle-Erik
 ---
 
 

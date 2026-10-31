@@ -2,7 +2,9 @@
 layout: post
 title:  Askeladden som Kappåt med Trollet
 image: theodor_kittelsen-askeladden_som_kapaad_med_troldet.png
-tags: Askeladden troll
+tags:
+  - Askeladden
+  - troll
 ---
 
 **Det var en gang** en bonde som hadde tre sønner; han var i små kår og

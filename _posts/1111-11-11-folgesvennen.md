@@ -2,8 +2,8 @@
 layout: post
 title: Følgesvennen
 tags:
-  konger
-  troll
+  - konger
+  - troll
 ---
 
 **Det var en gang** en bondegutt som drømte han skulle få en kongsdatter langt borti landene, og hun var så rød og hvit som melk og blod, og så rik at det aldri kunne bli ende på rikdommen hennes. Da han våknet, syntes han hun sto lys levende for ham enda, og han tykte hun var så fin og vakker at han kunne ikke være til om han ikke fikk henne. Så solgte han det han eide, og reiste ut i verden for å lete henne opp.

@@ -2,7 +2,7 @@
 layout: post
 title: Haren som hadde vært gift
 tags:
-  reven
+  - reven
 ---
 
 
