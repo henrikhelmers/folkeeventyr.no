@@ -4,9 +4,22 @@ Norske folkeeventyr med illustrasjoner fra Asbjørnsen og Moe sin tid. Bygget me
 
 ## Kom i gang
 
-Krever Ruby 3.3.
+Oppsettet forutsetter macOS med [Homebrew](https://brew.sh). `bin/image-sizes` bruker blant annet macOS-varianten av `iconv`.
 
 ```sh
+brew install ruby@3.3 imagemagick
+```
+
+Homebrew legger ikke `ruby@3.3` i PATH. Uten neste linje bruker `bundle` systemets gamle Ruby, og bygget feiler. Legg den gjerne i `~/.zshrc`:
+
+```sh
+export PATH="$(brew --prefix ruby@3.3)/bin:$PATH"
+```
+
+Installer Bundler-versjonen fra `Gemfile.lock`, så gemene. De havner i `vendor/bundle`.
+
+```sh
+gem install bundler:4.0.23
 bundle install
 bundle exec jekyll serve
 ```
