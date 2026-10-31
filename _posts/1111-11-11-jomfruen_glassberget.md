@@ -80,3 +80,4 @@ Dagen etter skulle alle ridderne og prinsene fram for kongen og kongsdatteren - 
 "Ja, du skal ha datter min og halve riket; du har vel fortjent både henne og det", sa kongen.
 
 Så ble det bryllup, og så fikk Askeladden kongsdatteren, og i det bryllupet ble det vel turet, kan hende; for ture kunne de alle, om de ikke kunne ri' oppetter glassberget, og har de ikke turet fra seg, så holder de på ennå.
+{: .slutt}

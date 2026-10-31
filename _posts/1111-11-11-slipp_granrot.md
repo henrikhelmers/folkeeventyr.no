@@ -32,4 +32,5 @@ langt inne i hullet og sa:
 
 "Lurte jeg deg ikke den gangen også, bestefar!"
 
-*"Gjømt er ikke glømt", sa bjørnen, og var vill.*
+"Gjømt er ikke glømt", sa bjørnen, og var vill.
+{: .slutt}

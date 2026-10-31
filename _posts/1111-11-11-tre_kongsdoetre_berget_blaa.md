@@ -608,7 +608,9 @@ hadde bundet i håret hans.
 Ja, så kom det ord og skor i hvordan kapteinen og løytnanten hadde båret
 seg at, og så fikk de unngjelde for det med livet; det var enden på
 herredommen deres. Men soldaten fikk gullkronen og halve riket, og holdt
-bryllup med den yngste kongsdatteren. Og der drakk de og turte både
-stivt og sterkt, for ture kunne de alle, om de ikke kunne frelse
-kongsdøtrene; og har de ikke avdrukket, så sitter de vel og drikker og
-turer ennå.
+bryllup med den yngste kongsdatteren.
+
+Og der drakk de og turte både stivt og sterkt, for ture kunne de alle,
+om de ikke kunne frelse kongsdøtrene; og har de ikke avdrukket, så
+sitter de vel og drikker og turer ennå.
+{: .slutt}

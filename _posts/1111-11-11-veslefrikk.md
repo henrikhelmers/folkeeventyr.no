@@ -9,18 +9,13 @@ tags:
   - lensmannen
 ---
 
-
-<section markdown='1'>
 **Det var en gang** en husmann som hadde en eneste sønn, og denne gutten
 var skrøpelig og hadde måtelig helse, så han ikke orket å gå på arbeid.
 
 Han hette Frikk, og litenvoren var han også, så kalte de ham Veslefrikk.
 Hjemme var det lite både å bite og brekke, så gikk far hans ut på bygda
 og ville feste ham bort til gjeter eller visergutt.
-</section>
 
-
-<section markdown='1'>
 Men det var ingen som ville ha gutten hans før han kom til lensmannen;
 han skulle ta ham, for han hadde nylig jaget visergutten sin, og det var
 ingen som ville til ham, for han hadde ord for å være en skarv.
@@ -28,11 +23,9 @@ ingen som ville til ham, for han hadde ord for å være en skarv.
 Det var bedre noe enn ikke noe, tenkte husmannen, maten fikk han da,
 for hos lensmannen skulle han tjene for kosten;
 og lønn og klær ble det ikke talt om.
-</section>
 
 ---
 
-<section markdown='1'>
 Men da gutten hadde vært der i tre år, ville han reise,
 og da ga lensmannen ham hele lønnen med én gang.
 Han skulle ha én skilling for året; mindre
@@ -46,10 +39,7 @@ mye; men han spurte om han ikke skulle ha noe mer.
 noe igjen", og nå var han så fillete at fillene hang og slang om ham, sa han.
 "Når du har fått det vi er forlikt om, og tre skilling attpå, så har jeg
 ikke mere med deg", sa lensmannen.
-</section>
 
-
-<section markdown='1'>
 Men han skulle da få lov til å gå ut
 i kjøkkenet og få litt mat i nisteskreppen sin, og så gikk han på
 byveien og skulle kjøpe klær. Han var både lystig og glad, for han hadde
@@ -60,13 +50,9 @@ Da han hadde gått langt og lenger enn langt, var han kommet inn i en
 trang dal med høye fjell på alle kanter, så han ikke syntes det var noen
 vei til å komme fram; han tok til å undres på hva som kunne være på hin
 siden av disse fjellene, og hvordan han skulle komme over.
-</section>
 
 {% include image.html path="theodor_kittelsen-veslefrik_med_felen.png" %}
 
-
-
-<section markdown='1'>
 Men han måtte opp, og så la han i vei; han orket lite og måtte hvile
 stundomtil, og da regnet han etter hvor mange penger han hadde. Da han
 kom opp på det høyeste, var det ikke annet enn en stor mosefly; der
@@ -99,10 +85,7 @@ jeg til byen og kjøpe klær for, hadde jeg møtt deg før, så -."
 skilling og større kropp og mindre klær."
 
 "Ja, så får du få den da", sa gutten.
-</section>
 
-
-<section markdown='1'>
 Så gikk han en stund igjen til han ble trett, og så satte han seg og
 hvilte, og da han vel hadde satt seg, kom det til ham en fattigmann
 igjen; men han var så stor og stygg og lang, at gutten så oppetter og
@@ -117,10 +100,7 @@ den skal jeg til byen og kjøpe klær for; hadde jeg møtt deg før, så -."
 
 "Ja, jeg har ingen skilling jeg, og større kropp og mindre klær, så det
 er verre for meg enn for deg", sa fattigmannen.
-</section>
 
-
-<section markdown='1'>
 Så fikk han få skillingen da, sa Veslefrikk, det var ingen råd for det;
 for så hadde hver sin og han hadde ingen.
 
@@ -133,10 +113,7 @@ bare skapt seg om for hver gang, så gutten ikke kunne kjenne ham igjen.
 lystige og glade at de danset", sa gutten, "så - får jeg ønske det jeg
 vil, så vil jeg ønske meg en fele, som er slik at alt som har liv, må
 danse etter den", sa han.
-</section>
 
-
-<section markdown='1'>
 Det skulle han få, men det var et skrøpelig ønske, sa fattigmannen; "du
 får ønske bedre for de andre skillingene."
 
@@ -150,10 +127,7 @@ får ønske bedre for den siste skillingen."
 "Jeg har støtt hatt hug til å være i lag med folk som var snille og
 godhjertet", sa Veslefrikk, "så fikk jeg det som jeg ønsker, ville jeg
 ha det så, at ingen kan nekte meg det første jeg ber om."
-</section>
 
-
-<section markdown='1'>
 "Det ønsket var ikke så skrøpelig", sa fattigmannen, og så strøk han inn
 mellom haugene og ble borte, og gutten la seg til å sove, og neste dagen
 kom han ned av fjellet med fela og børsa si.
@@ -168,10 +142,7 @@ Da han hadde reiste et stykke, møtte han lensmannen som han hadde tjent
 hos.
 
 "God dag, husbond", sa Veslefrikk med fela, han stanset og hilste.
-</section>
 
-
-<section markdown='1'>
 "God dag", sa lensmannen; "har jeg vært din husbond?" spurte han.
 
 "Ja, kommer du ikke i hug det, at jeg tjente hos deg i tre år for tre
@@ -187,10 +158,7 @@ har det gått til, at du er blitt slik en storkar?"
 "Ja, jeg har støtt hatt hug til å få folk til å danse", sa gutten; "men
 det gjeveste jeg har, er denne børsa her", sa han; "for det faller mest
 alt det jeg peker på den med, om det er aldri så langt borte.
-</section>
 
-
-<section markdown='1'>
 Ser du den
 skjæra som sitter i grana der borte?" sa Veslefrikk. "Hva setter du, at
 jeg kniper den her vi står?" sa han.
@@ -206,10 +174,7 @@ I det samme la Veslefrikk til å stryke på fela, og lensmannen til å
 danse så tornene slet i ham; og gutten spilte og lensmannen danset og
 gråt og ba for seg, til fillene føk av ham og han nesten ikke hadde en
 tråd på seg.
-</section>
 
-
-<section markdown='1'>
 "Ja, nå tenker jeg du er så fillete som jeg var da jeg reiste av
 tjenesten hos deg", sa gutten, "så nå får du slippe med det;" men først
 måtte lensmannen gi ham det han hadde veddet på at han ikke skulle
@@ -225,10 +190,7 @@ overfalt ham og plyndret ham og nesten tatt livet av ham, og nå skulle
 han henges; det var ikke å be for. Men Veslefrikk hadde råd for all uråd
 han, og det var fela. Han tok til å spille på den, så måtte vekterne
 danse til de lå der og gapte.
-</section>
 
-
-<section markdown='1'>
  Så sendte de soldater og vakt i veien. Men
 det gikk ikke bedre enn med vekterne; da Veslefrikk fikk fram fela,
 måtte de til ådanse, så lenge han orket å få den til å låte; men de var
@@ -248,9 +210,7 @@ opp på stigen, hvilte han for hvert trin. På det øverste satte han seg,
 og spurte om de kunne nekte ham et ønske, om han ikke kunne få lov til
 én ting: han hadde slik lyst til å låte en låt og leike en leik på fela
 før de hengte ham.
-</section>
 
-<section markdown='1'>
 —Nei, det var både synd og skam å nekte ham det, sa
 de; det var ikke nei til det han ba om. Men lensmannen ba for Guds
 skyld, at de ikke skulle la ham få lov til å klunke på en streng, ellers
@@ -266,6 +226,4 @@ ryggen sin på den. Det var ikke noen som tenkte på å gjøre noe med
 Veslefrikk, og han fikk gå med børsa og fela si som han ville, og han
 levde vel alle sine dager, for det var ingen som kunne si nei til det
 første han ba om.
-</section>
-
 

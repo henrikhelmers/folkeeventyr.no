@@ -164,4 +164,5 @@ Så holdt de bryllup og turte (feiret) og festet og skjøt trollkjerringsmell. I
 så tok de meg til én, og ga meg graut på en flaske og mjølk i en korg, og så skjøt de meg like hit, for at jeg skulle fortelle hvordan det gikk til.
 
 Og snipp snapp snute….så var dette Askeladden eventyret ute!
+{: .slutt}
 

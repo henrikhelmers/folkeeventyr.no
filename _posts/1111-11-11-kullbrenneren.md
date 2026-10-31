@@ -230,5 +230,7 @@ en prins, og når hun går ifra meg, ser det ut som det var en prinsesse."
 
 Det var tvillinger, så kullbrenneren traff det den gangen også. Og for
 det han kunne si det som ingen kunne vite, fikk han penger i lassevis,
-og så ble han den høyeste nest kongen. Tripp trapp trille, han ble mer
-enn han ville.
+og så ble han den høyeste nest kongen.
+
+Tripp trapp trille, han ble mer enn han ville.
+{: .slutt}

@@ -58,4 +58,5 @@ både marg og ben, og stanget ham utfor fossen; og så gikk den til
 seters. Der ble bukkene så fete, så fete at de nesten ikke orket å gå
 hjem igjen, og er ikke fettet gått av dem, så er de det ennå.
 
-*...og snipp snapp snute, her er det eventyret ute.*
+...og snipp snapp snute, her er det eventyret ute.
+{: .slutt}

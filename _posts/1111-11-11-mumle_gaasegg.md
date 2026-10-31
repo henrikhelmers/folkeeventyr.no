@@ -386,6 +386,9 @@ hadde lovt ham, og da kongen vred seg for å gi ham den, og ville gå fra
 det han hadde lovt, sa Mumle at det var best han laget seg en dyktig
 nisteskreppe, så ville han ta lønn sjøl. Ja, det gjorde kongen, og da
 den var i stand, tok Mumle kongen ut på tråkka og ga ham en ordentlig
-trykk så han fór til værs. Nisteskreppen kastet han etter ham, så han
-ikke skulle være matløs, og er han ikke kommet ned igjen, så svever han
-mellom himmel og jord med matskreppen den dag i dag.
+trykk så han fór til værs.
+
+Nisteskreppen kastet han etter ham, så han ikke skulle være matløs, og
+er han ikke kommet ned igjen, så svever han mellom himmel og jord med
+matskreppen den dag i dag.
+{: .slutt}

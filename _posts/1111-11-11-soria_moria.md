@@ -6,8 +6,6 @@ tags:
   - troll
 ---
 
-
-<section markdown='1'>
 **Det var en gang** et par folk som hadde en sønn, og han hette Halvor. Like
 fra han var smågutt, ville han aldri ta seg noe til, men satt bare og
 raket i asken. Foreldrene satte ham bort i mange slags lære; men Halvor
@@ -21,9 +19,7 @@ Hvor de seilte, har jeg ikke hørt; men langt om lenge kom det en sterk
 storm, og da den var over og det ble stilt igjen, visste de ikke hvor de
 var; de hadde drevet opp mot en fremmed kyst, som ingen av dem var kjent
 på.
-</section>
 
-<section markdown='1'>
 Da det var så stilt at det ikke rørte seg en fjær, ble de liggende her,
 og Halvor ba skipperen om han fikk lov å gå i land og se seg om, for han
 ville heller gå enn ligge og sove. "Synes du du kan vise deg for folk,"
@@ -39,7 +35,6 @@ veien gikk nå Halvor etter, og da det led på kvelden, så han et stort
 slott langt borte, og det lyste det ut av. Han hadde gått hele dagen og
 ikke hatt noe videre niste med seg heller, og han var dyktig sulten; men
 dess nærmere han kom til slottet, dess reddere ble han også.
-</section>
 
 I slottet brant det på varmen, og Halvor gikk inn i kjøkkenet, som var
 så gildt at han aldri hadde sett så gildt et kjøkken; der var kjørel

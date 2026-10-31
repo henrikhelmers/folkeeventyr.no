@@ -6,11 +6,9 @@ tags:
   - presten
 ---
 
-<section markdown='1'>
 **Det var en gang** en rik kakse som eide en stor herregård, og sølv hadde han på kistebunnen og penger på rente; men noe var det som vantet, for han var enkemann. En dag var datteren fra grannegården hos ham på arbeid. Henne likte herremannen riktig godt, og da hun var fattigfolks barn, så tenkte han at når han bare klunket på gifting, så måtte hun slå til med det samme. Så sa han til henne at han var kommet i tanker om å gifte seg igjen.
 
 "Ja, ja, en kan komme på så mye", sa jenta, hun sto der og smålo, og tenkte den gamle styggen kunne ha funnet på det som høvde bedre for ham enn å gifte seg.
-</section>
 
 "Ja, det var meningen at du skulle bli kona mi da", sa herremannen.
 

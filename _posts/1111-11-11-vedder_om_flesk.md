@@ -69,3 +69,4 @@ og ørene og i munnen og på snuten. Og han fikk så mye å gjøre med å kare
 dem av seg at han ikke hadde stunder til å tenke på Mikkel.
 
 Fra den dagen er det at bjørnen er så redd vepsen.
+{: .slutt}

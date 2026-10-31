@@ -37,7 +37,7 @@ Hver push til `main` bygges, sjekkes og publiseres via GitHub Actions.
 
 ## Innhold
 
-- `_posts/`: ett eventyr per fil, `1111-11-11-<slug>.md`.
+- `_posts/`: ett eventyr per fil, `1111-11-11-<slug>.md`. En avslutningsformel som «snipp snapp snute» står i eget avsnitt med `{: .slutt}` på linjen under.
 - `_data/images.yml`: tittel, kunstner og annen info om hvert bilde i `images/`.
 - `_data/image_sizes.yml`: bildestørrelser. Generer på nytt med `bin/image-sizes` (krever ImageMagick) når du legger til bilder.
 - `<tag>/index.html`: én side per tag, med `layout: tag_index`.

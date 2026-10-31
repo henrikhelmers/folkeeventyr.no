@@ -53,3 +53,4 @@ hun tok det vesle fløtegrannet som var igjen, og slo det etter reven, så
 han fikk en skvett på enden av halen.
 
 Og derav kommer det, at reven har hvit haletipp.
+{: .slutt}

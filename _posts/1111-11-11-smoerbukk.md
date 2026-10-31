@@ -6,8 +6,6 @@ tags:
   - kjerringer
 ---
 
-
-<section markdown='1'>
 **Det var en gang** en kjerring som satt og bakte. Hun hadde en liten gutt—han var så tykk og fet og ville så gjerne ha god mat. Derfor kalte hun ham Smørbukk. Hun hadde også en hund de kalte Gulltann. Rett som det var, satte hunden i å gjø.
 
 "Spring ut, du Smørbukken min", sa kjerringa, "og se etter hvem det er Gulltann gjør på."
@@ -25,9 +23,7 @@ Så kom det store trollet inn.
 "Er ikke han Smørbukk hjemme i dag?" spurte trollet.
 
 "Nei, han er i skogen med far sin og veider ryper", svarte moren.
-</section>
 
-<section markdown='1'>
 "Det var troll det da!" sa haugkjerringa; "jeg har slik en fin liten sølvkniv jeg ville gitt 'n."
 
 "Pip, pip, her er jeg!" sa Smørbukk under bakstefjøla, og kom fram.
@@ -40,9 +36,7 @@ Da Smørbukk vel var kommet nedi, slengte trollet sekken på ryggen og la på d�
 
 Så satte trollet sekken fra seg ved veien og reiste bortigjennom
 småskogen for seg selv og la seg til å sove. Imens passet Smørbukk seg, tok kniven sin, sprettet hull på sekken og smatt ut, la så en stor tyrirot isteden, og strøk hjem til mor sin. Da trollet kom hjem og fikk se hva hun hadde i sekken, ble hun fælt sint.
-</section>
 
-<section markdown='1'>
 Dagen etter satt kjerringa og bakte igjen. Rett som det var, tok hunden til å gjø. "Spring ut, du Smørbukken min", sa hun, "og se etter hva det er Gulltann gjør på."
 
 "Å nei, å nei, det stygge beistet da!" sa Smørbukk; "nå kommer hun igjen, med hodet under armen og en stor sekk på ryggen."
@@ -62,9 +56,7 @@ Dagen etter satt kjerringa og bakte igjen. Rett som det var, tok hunden til å g
 Da de hadde kommet et godt stykke på veien, ble hun trett og spurte: "Hvor langt er det bort å sove?"
 
 "En halv mil", svarte Smørbukk.
-</section>
 
-<section markdown='1' class="dropcap">
 Så satte trollet ned sekken ved veien og gikk opp igjennom skogen og la seg til å sove. Mens trollet gjorde det, fikk Smørbukk hull på sekken, og da han var kommet ut, la han en stor stein i sekken. Da haugkjerringa kom hjem, gjorde hun opp varme på peisen, satte over en diger kjele og skulle til å koke Smørbukk. Men da hun tok sekken og trodde hun skulle slippe Smørbukk oppi, falt steinen ut og slo hull i bunnen på kjelen, så vannet rant ut og slokket varmen. Da ble trollet sint og sa: "Om han nå gjør seg aldri så tung, skal jeg lure 'n likevel, jeg."
 
 Tredje gangen gikk det akkurat like ens; Gulltann satte i å gjø, og så sa moren til Smørbukk: "Spring ut, du Smørbukken min, og se etter hvem det er Gulltann gjør på."
@@ -78,9 +70,7 @@ Så sprang Smørbukk ut, og kom inn igjen og sa: "Å, jeje meg! Det er trollet s
 "Neimen er han ikke", sa moren, "han er ute i skogen med far sin og veider ryper."
 
 "Det var troll det da!" sa haugkjerringa, "for jeg har slik en vakker liten sølvskje jeg ville gitt 'n."
-</section>
 
-<section markdown='1'>
 "Pip, pip, her er jeg!" sa Smørbukk, og kom fram under bakstefjøla.
 
 "Jeg er så stiv i ryggen", sa haugkjerringa, "du får smette ned i sekken og ta den sjøl."
@@ -100,9 +90,7 @@ Da folkene kom hjem fra kirken og så hodet i sengen, tenkte de at datteren lå 
 "Smaker godt, Smørbukksodd!" sa kjerringa.
 
 "Smaker godt, dattersodd!" sa Smørbukk. Men det lydde de ikke etter.
-</section>
 
-<section markdown='1'>
 Så tok haugtrollet skjeen og skulle til å smake.
 
 "Smaker godt, Smørbukksodd!" sa han.
@@ -110,4 +98,3 @@ Så tok haugtrollet skjeen og skulle til å smake.
 "Smaker godt, dattersodd!" sa Smørbukk på peispipen.
 
 Så tok de til å undres på hvem det var som snakket, og ville ut og se etter. Men da de kom i døren, kastet Smørbukk tyriroten og steinen i hodet på dem og slo dem i hjel. Så tok han alt det gull og sølv som i huset var, og da ble han vel rik, kan hende; og så reiste han hjem til mor sin.
-</section>

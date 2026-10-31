@@ -22,3 +22,4 @@ fisk får du. Og rett som det er, skal du tverrykke opp!"
 Ja, bjørnen gjorde som reven hadde sagt, og holdt rumpa lenge, lenge
 nedi hullet, til den var frosset vel fast; så tverrykket han den - tvert
 av, og nå går han der stubbrumpet den dag i dag.
+{: .slutt}

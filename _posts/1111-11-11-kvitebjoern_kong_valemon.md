@@ -260,4 +260,7 @@ kunne føre, og fór av gårde til hans land og skulle holde det rette
 bryllupet. Men på veien var kong Valemon innom og tok med de tre
 småjentene, og nå fikk hun se hvorfor de var han hadde tatt fra henne
 barna og satt dem bort; det var for at de skulle hjelpe henne fram til
-ham. Så drakk de bryllup både stivt og sterkt.
+ham.
+
+Så drakk de bryllup både stivt og sterkt.
+{: .slutt}
