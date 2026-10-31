@@ -1,8 +1,5 @@
 {% assign kilde = page.kilde %}
 {% assign samling = site.data.samlinger[kilde.samling] %}
-{% if kilde.side %}
-  {% assign bilde = kilde.side | plus: samling.nb_forskyvning | prepend: "000" | slice: -4, 4 | prepend: "_" %}
-{% endif %}
 <section class="om-eventyret">
   <h2>Om eventyret</h2>
   {{ page.om | markdownify }}
@@ -23,7 +20,7 @@
   </dl>
 
   <ul class="kildelenker">
-    <li><a href="https://urn.nb.no/{{ samling.nb }}{{ bilde }}">Se originalen fra {{ samling.utgitt }} hos Nasjonalbiblioteket</a></li>
+    <li><a href="https://www.nb.no/items/{{ samling.nb }}{% if kilde.side %}?page={{ kilde.side | plus: samling.nb_forskyvning }}{% endif %}">Se originalen fra {{ samling.utgitt }} hos Nasjonalbiblioteket</a></li>
     {% if kilde.runeberg %}
       {% assign kapittel = kilde.runeberg | prepend: "00" | slice: -3, 3 %}
       <li><a href="https://runeberg.org/folkeven/{{ kapittel }}.html">Les teksten hos Projekt Runeberg</a></li>

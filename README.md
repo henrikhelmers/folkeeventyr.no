@@ -40,7 +40,7 @@ Hver push til `main` bygges, sjekkes og publiseres via GitHub Actions.
 - `_eventyr/`: ett eventyr per fil, `<slug>.md`. En avslutningsformel som «snipp snapp snute» står i eget avsnitt med `{: .slutt}` på linjen under.
 - `_data/images.yml`: tittel, kunstner og annen info om hvert bilde i `images/`.
 - `_data/image_sizes.yml`: bildestørrelser. Generer på nytt med `bin/image-sizes` (krever ImageMagick) når du legger til bilder.
-- `_data/samlinger.yml`: utgavene eventyrene er hentet fra, med tittel, år, forfattere og URN hos Nasjonalbiblioteket. `nb_forskyvning` er hvor mye som må legges til et trykt sidetall for å få bildenummeret i skanningen.
+- `_data/samlinger.yml`: utgavene eventyrene er hentet fra, med tittel, år, forfattere og URN hos Nasjonalbiblioteket. `nb_forskyvning` legges til et trykt sidetall for å få `?page=` hos nb.no, som teller bildene fra 0.
 - `<tag>/index.html`: én side per tag, med `layout: tag_index`.
 
 ### Kilder i et eventyr

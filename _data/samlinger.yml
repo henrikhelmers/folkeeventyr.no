@@ -1,4 +1,4 @@
-# nb_forskyvning: trykt sidetall + forskyvning = bildenummeret i NBs skanning.
+# nb_forskyvning: trykt sidetall + forskyvning = ?page= hos nb.no, som teller bildene fra 0.
 
 ny_samling:
   tittel: Norske Folke-Eventyr. Ny Samling
@@ -6,7 +6,7 @@ ny_samling:
   forfattere:
     - Peter Christen Asbjørnsen
   nb: URN:NBN:no-nb_digibok_2015061929001
-  nb_forskyvning: 12
+  nb_forskyvning: 13
 
 norske_folkeeventyr:
   tittel: Norske Folkeeventyr
@@ -15,7 +15,7 @@ norske_folkeeventyr:
     - Peter Christen Asbjørnsen
     - Jørgen Moe
   nb: URN:NBN:no-nb_digibok_2008103012001
-  nb_forskyvning: 72
+  nb_forskyvning: 73
 
 ny_samling_1876:
   tittel: Norske Folke-Eventyr. Ny Samling
@@ -23,7 +23,7 @@ ny_samling_1876:
   forfattere:
     - Peter Christen Asbjørnsen
   nb: URN:NBN:no-nb_digibok_2008102912003
-  nb_forskyvning: 20
+  nb_forskyvning: 21
 
 eventyrbog_3:
   tittel: Eventyrbog for Børn. Norske Folkeeventyr III
@@ -40,4 +40,4 @@ barne_eventyr:
   forfattere:
     - Moltke Moe
   nb: URN:NBN:no-nb_digibok_2008012203002
-  nb_forskyvning: 8
+  nb_forskyvning: 9
