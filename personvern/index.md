@@ -1,14 +1,14 @@
 ---
 layout: post
+title: Personvern
 ---
 
-# Personvern
-
 Folkeeventyr.no drives på frivillig basis for å øke interessen rundt norske
-folkeeventyr. Det er mange unge som bruker nettsiden og vi har et felles ansvar
-for å trygge våre barns digitale liv.
+folkeeventyr. Mange unge bruker nettsiden, og vi har et felles ansvar for å
+trygge barnas digitale liv.
 
-På denne nettsiden samles det inn anonymisert statistikk via Google
-Analytics. Det vises også upersonlig reklame via Google AdSense. 
+Derfor samler ikke nettsiden inn statistikk om besøkende. Den setter ingen
+informasjonskapsler og viser ingen reklame.
 
-
+Nettsiden ligger på GitHub Pages. GitHub kan som vertskap føre tekniske logger,
+som IP-adresser, for å drifte og sikre tjenesten.

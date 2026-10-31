@@ -47,11 +47,9 @@ layout: default
               playGrafikkKlasser.remove("stopp");
               playGrafikkKlasser.add("til-play");
               lydbokAudio.pause();
-              gtag("event", "pause", { event_category: "Audio", event_label: {{ page.title | jsonify }} });
             } else if (!playGrafikkKlasser.contains("til-play")) {
               playGrafikkKlasser.add("stopp");
               lydbokAudio.play();
-              gtag("event", "play", { event_category: "Audio", event_label: {{ page.title | jsonify }} });
             }
           });
 
