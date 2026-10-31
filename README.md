@@ -15,10 +15,12 @@ Slik bygger og sjekker du som CI gjør:
 
 ```sh
 JEKYLL_ENV=production bundle exec jekyll build --baseurl ""
-bundle exec htmlproofer _site --disable-external --allow-missing-href
+bin/check
 ```
 
-Hver push til `main` bygges, lenkesjekkes og publiseres via GitHub Actions.
+`bin/check` kjører html-proofer og fanger i tillegg filnavn i feil Unicode-form, utdaterte bildestørrelser, tagger som ikke er lister, bildeinkluderinger som ikke viser noe og sider som mangler i sitemapen.
+
+Hver push til `main` bygges, sjekkes og publiseres via GitHub Actions.
 
 ## Innhold
 

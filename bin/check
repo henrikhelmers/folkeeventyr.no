@@ -1,0 +1,66 @@
+#!/usr/bin/env ruby
+# Sjekker innholdet og den bygde siden. Kjør etter `jekyll build`.
+require "yaml"
+require "rexml/document"
+require "uri"
+
+Encoding.default_external = Encoding::UTF_8
+Dir.chdir(File.expand_path("..", __dir__))
+errors = []
+missing_titles = []
+
+tracked = `git -c core.quotepath=off ls-files`.split("\n")
+text_files = tracked.grep(/\.(md|markdown|html|yml|sass|json|xml|txt)\z/)
+
+# macOS lagrer ofte filnavn som NFD, mens Linux og GitHub Pages skiller NFD fra NFC.
+tracked.each { |f| errors << "#{f}: filnavnet er ikke NFC" unless f.unicode_normalized?(:nfc) }
+text_files.each do |f|
+  File.foreach(f).with_index(1) do |line, i|
+    errors << "#{f}:#{i}: teksten er ikke NFC" unless line.unicode_normalized?(:nfc)
+  end
+end
+
+images = tracked.grep(%r{\Aimages/.+\.(png|jpg)\z}).map { |f| f.delete_prefix("images/") }
+sizes = YAML.load_file("_data/image_sizes.yml").keys
+(images - sizes).each { |f| errors << "_data/image_sizes.yml: mangler #{f}, kjør bin/image-sizes" }
+(sizes - images).each { |f| errors << "_data/image_sizes.yml: #{f} finnes ikke i images/, kjør bin/image-sizes" }
+
+image_data = YAML.load_file("_data/images.yml")
+post_urls = []
+tracked.grep(%r{\A_posts/.+\.(md|markdown)\z}).each do |f|
+  source = File.read(f)
+  front_matter = YAML.safe_load(source[/\A---\n(.*?)\n---\n/m, 1].to_s) || {}
+  errors << "#{f}: mangler title" unless front_matter["title"]
+  tags = front_matter["tags"]
+  errors << "#{f}: tags må være en liste" unless tags.nil? || tags.is_a?(Array)
+  post_urls << "/#{File.basename(f, '.*').delete_prefix('1111-11-11-')}/"
+
+  source.scan(/\{% include image\.html path=[^"'].*?%\}/) { |m| errors << "#{f}: path i #{m} mangler anførselstegn og viser ingenting" }
+
+  used = [front_matter["image"], *front_matter["images"]] + source.scan(/path="([^"]+)"/).flatten.flat_map { |p| p.split(", ") }
+  missing_titles.concat(used.compact.map { |i| i.delete_prefix("/") }.reject { |i| image_data.dig(i, "title") })
+end
+
+if Dir.exist?("_site")
+  Dir["_site/**/*.html"].each do |f|
+    errors << "#{f}: bilde uten width eller height" if File.read(f).match?(/(width|height)=""/)
+  end
+
+  sitemap = REXML::Document.new(File.read("_site/sitemap.xml"))
+  locs = REXML::XPath.match(sitemap, "//loc").map { |l| URI.decode_uri_component(URI(l.text).path) }
+  tag_urls = tracked.grep(%r{\A[^/_]+/index\.html\z}).select { |f| File.read(f).include?("layout: tag_index") }.map { |f| "/#{File.dirname(f)}/" }
+  (post_urls + tag_urls - locs).each { |u| errors << "_site/sitemap.xml: mangler #{u}" }
+
+  # Absolutte lenker til eget domene sjekkes som interne, så canonical og og:image også blir testet.
+  htmlproofer = %w[bundle exec htmlproofer _site --disable-external --allow-missing-href
+                   --checks Links,Images,Scripts,OpenGraph --swap-urls ^https\://folkeeventyr.no:]
+  errors << "html-proofer fant feil, se over" unless system(*htmlproofer)
+else
+  errors << "_site finnes ikke, bygg siden først"
+end
+
+missing_titles = missing_titles.uniq.sort
+missing_titles.each { |i| warn "Advarsel: #{i} mangler title i _data/images.yml" }
+errors.each { |e| warn "Feil: #{e}" }
+puts "#{errors.size} feil, #{missing_titles.size} advarsler"
+exit(errors.empty? ? 0 : 1)
