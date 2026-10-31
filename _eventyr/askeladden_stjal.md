@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Askeladden som stjal sølvendene til trollet
 tags:
   - Askeladden

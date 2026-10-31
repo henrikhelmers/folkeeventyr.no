@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Reve-enka
 image: gamle/reveenka.png
 tags:

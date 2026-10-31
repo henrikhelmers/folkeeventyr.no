@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Originalversjon—De Tre Bukkene Bruse
 image: /gamle/bukkene_bruse.png
 audio: bukkene_bruse.mp3

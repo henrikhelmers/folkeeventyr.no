@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Reven som Gjeter
 image: erik_werenskiold-reven_som_gjeter.png
 tags:

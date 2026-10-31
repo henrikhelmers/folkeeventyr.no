@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Askeladden og De Gode Hjelperne
 image: otton_sinding-askeladden_og_de_gode_hjelperne.png
 images:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Reven Snyter Bjørnen for Julekosten
 image:
 tags:

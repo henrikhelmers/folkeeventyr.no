@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Herremannsbruden
 tags:
   - mannfolk

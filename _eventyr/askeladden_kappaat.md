@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Askeladden som Kappåt med Trollet
 image: theodor_kittelsen-askeladden_som_kapaad_med_troldet.png
 tags:

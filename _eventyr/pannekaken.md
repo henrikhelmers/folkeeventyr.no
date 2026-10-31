@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Pannekaken
 image: /gamle/pannekaken.png
 images:

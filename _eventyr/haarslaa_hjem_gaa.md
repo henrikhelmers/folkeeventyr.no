@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hårslå, som aldri ville hjem gå
 tags:
   - kjerringer

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: De Vedder om Flesk og Humlebol
 
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Mikkel vil Smake Hestekjøtt
 tags:
   - reven

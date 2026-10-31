@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Mumle Gåsegg
 tags:
   - konger

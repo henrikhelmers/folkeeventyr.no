@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Østenfor Sol og Vestenfor Måne
 tags:
   - prinsesser

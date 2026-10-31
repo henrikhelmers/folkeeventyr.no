@@ -1,5 +1,4 @@
 ---
-layout: post
 title: De Tre Kongsdøtre i Berget det Blå
 image: /erik_werenskiold-de_tre_kongsdøtre_i_berget_det_blaa.png
 tags:

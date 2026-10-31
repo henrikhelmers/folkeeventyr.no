@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Følgesvennen
 tags:
   - konger

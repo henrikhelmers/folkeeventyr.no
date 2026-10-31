@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Bamse Brakar
 image: /gamle/bamse_brakar.png
 tags:

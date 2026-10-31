@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tyrihans som fikk Kongsdatteren til å Le
 image: /gamle/tyrihans.png
 images:

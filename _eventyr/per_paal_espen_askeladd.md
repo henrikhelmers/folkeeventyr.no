@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Per, Pål og Espen Askeladd
 tags:
   - konger

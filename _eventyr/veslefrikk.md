@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Veslefrikk med Fela
 image: theodor_kittelsen-veslefrik_med_felen_2.png
 images:

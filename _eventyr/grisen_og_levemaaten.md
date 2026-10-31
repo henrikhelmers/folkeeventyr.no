@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Grisen og levemåten hans
 tags:
   - grisen

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kvitebjørn kong Valemon
 tags:
   - prinsesser

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kjerringa mot strømmen
 tags:
   - mannfolk

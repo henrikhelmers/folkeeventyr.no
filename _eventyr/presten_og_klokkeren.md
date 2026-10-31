@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Presten og klokkeren
 tags:
   - konger

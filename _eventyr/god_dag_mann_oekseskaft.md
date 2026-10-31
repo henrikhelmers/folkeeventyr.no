@@ -1,5 +1,4 @@
 ---
-layout: post
 title: God dag, mann! - Økseskaft
 tags:
   - mannfolk

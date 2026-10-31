@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jomfruen på glassberget
 tags:
   - Askeladden

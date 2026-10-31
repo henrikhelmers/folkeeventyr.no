@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kullbrenneren
 image: gamle/kullbrenneren.png
 images:

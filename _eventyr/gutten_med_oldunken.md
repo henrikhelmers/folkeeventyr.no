@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gutten med øldunken
 tags:
   - mannfolk

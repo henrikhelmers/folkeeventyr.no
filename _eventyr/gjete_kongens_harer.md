@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gjete kongens harer
 tags:
   - Askeladden

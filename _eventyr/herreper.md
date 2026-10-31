@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Herreper
 image: erik_werenskiold-herreper_2.png
 tags:

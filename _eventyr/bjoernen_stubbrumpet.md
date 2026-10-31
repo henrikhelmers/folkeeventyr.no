@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Hvorfor Bjørnen er Stubbrumpet
 tags:
   - bjørnen

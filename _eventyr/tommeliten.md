@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tommeliten
 image: /erik_werenskiold-de_tre_kongsdøtre_i_berget_det_blaa.png
 tags:
