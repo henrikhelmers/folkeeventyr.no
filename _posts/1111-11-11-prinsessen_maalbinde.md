@@ -4,6 +4,16 @@ title: Prinsessen som Ingen Kunne Målbinde
 tags:
   - prinsesser
   - Askeladden
+kilde:
+  samling: eventyrbog_3
+  side: 97
+  atu: "853"
+  runeberg: 48
+om: >
+  Prinsessen svarer alltid så godt at ingen kan målbinde henne. Askeladden tar
+  med seg det han finner på veien, og bruker hver ting til å stoppe munnen
+  hennes. Asbjørnsen og Moltke Moe skrev det ned. Det er en variant av
+  «Spurningen» fra Norske Folkeeventyr.
 ---
 
 

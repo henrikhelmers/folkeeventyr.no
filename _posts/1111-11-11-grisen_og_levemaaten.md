@@ -3,6 +3,17 @@ layout: post
 title: Grisen og levemåten hans
 tags:
   - grisen
+kilde:
+  samling: barne_eventyr
+  side: 105
+  atu: "211"
+  engelsk: The Pig and his Way of Life
+  runeberg: 28
+om: >
+  Grisen er lei av livet sitt og går til tinget for å få dom for en bedre
+  levemåte, med hvete og erter og silkeseng. På veien hjem lurer reven ham til
+  å synge «skuler og rask, og ligge i boss» i stedet. Moltke Moe skrev det
+  ned.
 ---
 
 

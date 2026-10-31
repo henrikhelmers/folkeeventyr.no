@@ -24,3 +24,20 @@ ny_samling_1876:
     - Peter Christen Asbjørnsen
   nb: URN:NBN:no-nb_digibok_2008102912003
   nb_forskyvning: 20
+
+eventyrbog_3:
+  tittel: Eventyrbog for Børn. Norske Folkeeventyr III
+  utgitt: 1887
+  forfattere:
+    - Peter Christen Asbjørnsen
+    - Moltke Moe
+  nb: URN:NBN:no-nb_digibok_2014071724002
+  nb_forskyvning: 6
+
+barne_eventyr:
+  tittel: Barne-eventyr
+  utgitt: 1909
+  forfattere:
+    - Moltke Moe
+  nb: URN:NBN:no-nb_digibok_2008012203002
+  nb_forskyvning: 8
