@@ -1,12 +1,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% capture page_title %}{% if page.type == "tag" %}Eventyr om {{ page.tag }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+  {% capture page_title %}{% if page.type == "tag" %}Eventyr om {{ page.tag | capitalize }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
   {% capture page_description %}{% if page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
-  {% if page.image %}{% assign og_image = page.image | prepend: "/images/" | replace: "//", "/" %}{% else %}{% assign og_image = site.og_image %}{% endif %}
-  {% assign og_image_alt = site.data.images[page.image].title %}
+  {% if page.image %}
+    {% assign og_image_path = page.image | prepend: "/" | replace: "//", "/" | remove_first: "/" %}
+    {% assign og_image = og_image_path | prepend: "/images/" %}
+    {% assign og_image_alt = site.data.images[og_image_path].title %}
+  {% else %}
+    {% assign og_image = site.og_image %}
+  {% endif %}
   <meta name="description" content="{{ page_description | escape }}">
   <title>{{ page_title }}</title>
+  {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:type" content="{% if page.layout == "post" %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
@@ -17,6 +23,22 @@
   <meta property="og:image" content="{{ og_image | absolute_url }}">
   {% if og_image_alt %}<meta property="og:image:alt" content="{{ og_image_alt | escape }}">{% endif %}
   <meta name="twitter:card" content="summary_large_image">
+  {% if page.layout == "post" and page.tags.size > 0 %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page_description | jsonify }},
+      "image": {{ og_image | absolute_url | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "inLanguage": "nb",
+      "genre": "Folkeeventyr",
+      "keywords": {{ page.tags | join: ", " | jsonify }},
+      "isPartOf": { "@type": "WebSite", "name": {{ site.title | jsonify }}, "url": {{ site.url | jsonify }} }
+    }
+  </script>
+  {% endif %}
   {% assign random_number = site.time | date: '%s' | plus: 1000 %}
   <link rel="preload" href="{{ site.baseurl }}/style/IMFeENrm29P.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ site.baseurl }}/style/style.css?v={{ random_number }}">

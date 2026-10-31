@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Om folkeeventyr.no
+title: Om folkeeventyr.no
 ---
 
 Nettsiden folkeeventyr.no er et forsøk på å ta norske eventyr inn i den
