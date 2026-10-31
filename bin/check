@@ -28,13 +28,13 @@ sizes = YAML.load_file("_data/image_sizes.yml").keys
 image_data = YAML.load_file("_data/images.yml")
 samlinger = YAML.load_file("_data/samlinger.yml")
 post_urls = []
-tracked.grep(%r{\A_posts/.+\.(md|markdown)\z}).each do |f|
+tracked.grep(%r{\A_eventyr/.+\.(md|markdown)\z}).each do |f|
   source = File.read(f)
   front_matter = YAML.safe_load(source[/\A---\n(.*?)\n---\n/m, 1].to_s) || {}
   errors << "#{f}: mangler title" unless front_matter["title"]
   tags = front_matter["tags"]
   errors << "#{f}: tags må være en liste" unless tags.nil? || tags.is_a?(Array)
-  post_urls << "/#{File.basename(f, '.*').delete_prefix('1111-11-11-')}/"
+  post_urls << "/#{File.basename(f, '.*')}/"
 
   if (kilde = front_matter["kilde"])
     errors << "#{f}: kilde.samling #{kilde['samling'].inspect} finnes ikke i _data/samlinger.yml" unless samlinger.key?(kilde["samling"])

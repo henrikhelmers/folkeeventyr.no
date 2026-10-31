@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign tag_groups = site.posts | map: "tags" | join: "," | split: "," | group_by_exp: "tag", "tag" | sort: "name" %}
+{% assign tag_groups = site.eventyr | map: "tags" | join: "," | split: "," | group_by_exp: "tag", "tag" | sort: "name" %}
 {% assign max_count = tag_groups | map: "size" | sort | last %}
 
 <article class="eventyr">
@@ -19,7 +19,7 @@ layout: default
     {% for count in (1..max_count) reversed %}
       {% for group in tag_groups %}
         {% if group.size == count %}
-          {% assign tag_posts = site.tags[group.name] | sort %}
+          {% assign tag_posts = site.eventyr | where_exp: "post", "post.tags contains group.name" %}
           <div class="tag">
             <a href="/{{ group.name | downcase }}/">
               <h2>{{ group.name | slice: 0 | upcase }}{{ group.name | slice: 1, 100 }}</h2>
@@ -38,7 +38,7 @@ layout: default
     {% endfor %}
   </section>
 
-  {% assign untagged_posts = site.posts | where_exp: "post", "post.tags == empty" | sort %}
+  {% assign untagged_posts = site.eventyr | where_exp: "post", "post.tags == empty" %}
   {% for post in untagged_posts %}
     <h2>
       <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>

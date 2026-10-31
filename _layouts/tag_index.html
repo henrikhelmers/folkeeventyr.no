@@ -3,7 +3,7 @@ layout: default
 type: tag
 ---
 {% assign posts = "" | split: "" %}
-{% for post in site.posts %}
+{% for post in site.eventyr reversed %}
   {% for tag in post.tags %}
     {% assign tag_slug = tag | downcase %}
     {% if tag_slug == page.tag %}
