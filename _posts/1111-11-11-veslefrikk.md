@@ -62,7 +62,7 @@ vei til å komme fram; han tok til å undres på hva som kunne være på hin
 siden av disse fjellene, og hvordan han skulle komme over.
 </section>
 
-{% include image.html path='page.images[1]' %}
+{% include image.html path="theodor_kittelsen-veslefrik_med_felen.png" %}
 
 
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  De Skulle ha Åker i Sameie
-image: theodor_kittelsen-bjørnen_og_reven_de_skulde_have_åger_i_sameie.png
+image: theodor_kittelsen-bjørnen_og_reven_de_skulde_have_åger_i_sameie.png
 images:
-  - theodor_kittelsen-bjørnen_og_reven_de_skulde_have_åger_i_sameie.png
+  - theodor_kittelsen-bjørnen_og_reven_de_skulde_have_åger_i_sameie.png
 tags:
   - bjørnen
   - reven

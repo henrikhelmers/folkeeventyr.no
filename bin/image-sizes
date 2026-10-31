@@ -9,4 +9,4 @@ cd "$(dirname "$0")/.."
   find images -type f \( -name '*.png' -o -name '*.jpg' \) | LC_ALL=C sort | while read -r file; do
     magick identify -format "${file#images/}: {w: %w, h: %h}\n" "$file[0]"
   done
-} > _data/image_sizes.yml
+} | iconv -f UTF-8-MAC -t UTF-8 > _data/image_sizes.yml # macOS gir NFD-filnavn, postene bruker NFC
