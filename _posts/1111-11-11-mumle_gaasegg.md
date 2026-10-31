@@ -5,6 +5,17 @@ tags:
   - konger
   - kjerringer
   - Gamle-Erik
+kilde:
+  samling: ny_samling
+  nr: 96
+  side: 172
+  atu: "650A"
+  engelsk: Grumblegizzard
+  runeberg: 15
+om: >
+  Fem barnløse kjerringer ruger ut et svært gåsegg, og ut kommer Mumle, som
+  spiser så mye at ingen orker å ha ham. Han tar tjeneste hos kongen, gjør det
+  umulige og krever lønnen sin til slutt, så kongen sendes til himmels.
 ---
 
 

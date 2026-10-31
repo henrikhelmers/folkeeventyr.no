@@ -3,6 +3,18 @@ layout: post
 title: Mikkel vil Smake Hestekjøtt
 tags:
   - reven
+kilde:
+  samling: ny_samling
+  nr: 74
+  side: 62
+  atu: "47A"
+  engelsk: Reynard Wants to Taste Horse-Flesh
+  runeberg: 64
+om: >
+  Reven lurer bjørnen til å binde seg fast i halen på en hest for å fange den.
+  Det går ikke slik bjørnen hadde tenkt, og eventyret forklarer også hvorfor
+  reven har hvit haletipp. Det er det siste av fire eventyr om bjørnen og
+  reven i samlingen.
 ---
 
 

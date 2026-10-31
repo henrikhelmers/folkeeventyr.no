@@ -4,6 +4,17 @@ title: God dag, mann! - Økseskaft
 tags:
   - mannfolk
   - lensmannen
+kilde:
+  samling: ny_samling
+  nr: 93
+  side: 166
+  atu: "1968J"
+  engelsk: Goodman Axehaft
+  runeberg: 94
+om: >
+  En tunghørt ferjemann får besøk av lensmannen, og de snakker forbi hverandre
+  fra begynnelse til slutt. «God dag, mann! – Økseskaft» er blitt et fast
+  uttrykk for svar som ikke henger sammen med spørsmålet.
 ---
 
 **Det var en gang** en ferjemann som var så tunghørt at han hverken kunne

@@ -7,6 +7,18 @@ images:
  - theodor_kittelsen-veslefrik_med_felen_2.png
 tags:
   - lensmannen
+kilde:
+  samling: ny_samling
+  nr: 97
+  side: 183
+  atu: "592"
+  engelsk: Little Freddy With his Fiddle
+  runeberg: 45
+om: >
+  Veslefrikk gir bort lønnen sin til en fattig mann og får tre ønsker: en
+  børse som treffer alt, en fele som får alt levende til å danse, og at ingen
+  kan si nei til det første han ber om. Med felen får han lensmannen til å
+  danse i en tornebusk.
 ---
 
 **Det var en gang** en husmann som hadde en eneste sønn, og denne gutten

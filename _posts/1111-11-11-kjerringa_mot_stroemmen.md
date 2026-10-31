@@ -3,6 +3,18 @@ layout: post
 title: Kjerringa mot strømmen
 tags:
   - mannfolk
+kilde:
+  samling: ny_samling
+  nr: 64
+  side: 18
+  atu: "1365AB"
+  engelsk: Goody Gainst-the-stream
+  runeberg: 58
+om: >
+  En mann og en kjerring krangler om enga skal klippes eller skjæres.
+  Kjerringa gir seg ikke, ikke engang når hun drukner, og mannen leter etter
+  henne oppover elva fordi hun alltid gikk mot strømmen. Uttrykket «kjerringa
+  mot strømmen» har levd videre i norsk.
 ---
 
 

@@ -6,6 +6,17 @@ tags:
   - reven
   - bjørnen
   - presten
+kilde:
+  samling: ny_samling
+  nr: 75
+  side: 63
+  atu: "116"
+  engelsk: Bruin Goodfellow
+  runeberg: 22
+om: >
+  En bjørn havner alene på sleden til en bonde, og hesten stikker av med ham.
+  Folk han møter tror det er futen som kommer kjørende. Til slutt får bonden
+  både bjørnehud og revebelg.
 ---
 
 **Det var en gang** en bonde som reiste til fjells etter et lass løv til buskapen sin om vinteren. Da han kom til løvhesjene[^1] rygget han sleden med hesten tett inntil, og gikk opp i hesja og tok til å velte løvkjerv ned på sleden. Men det var en bjørn i hesja, som hadde lagt seg i hi der, og da mannen la til å rive og romstere, så våknet bjørnen og sprang ut, like ned på sleden. 

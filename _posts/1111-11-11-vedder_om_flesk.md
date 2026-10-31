@@ -5,6 +5,18 @@ title: De Vedder om Flesk og Humlebol
 tags:
   - reven
   - bjørnen
+kilde:
+  samling: ny_samling
+  nr: 74
+  side: 60
+  atu: "7"
+  engelsk: Pork and Honey
+  runeberg: 64
+om: >
+  Bjørnen og reven vedder om hvem som kan nevne tre trær først. Reven vinner
+  flesket, og bjørnen får et humlebol i fleisen. Det er det andre av fire
+  eventyr om bjørnen og reven i samlingen, og det forklarer hvorfor bjørnen er
+  så redd vepsen.
 ---
 
 

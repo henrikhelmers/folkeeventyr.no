@@ -4,6 +4,16 @@ title: Herremannsbruden
 tags:
   - mannfolk
   - presten
+kilde:
+  samling: ny_samling_1876
+  nr: 50
+  side: 248
+  atu: "1440"
+  runeberg: 44
+om: >
+  En rik enkemann vil gifte seg med en fattig jente. Hun sier nei, og da han
+  sender bud etter bruden, får han ei merr i brudekjole. Eventyret kom med i
+  andre utgave av Asbjørnsens Ny Samling i 1876.
 ---
 
 **Det var en gang** en rik kakse som eide en stor herregård, og sølv hadde han på kistebunnen og penger på rente; men noe var det som vantet, for han var enkemann. En dag var datteren fra grannegården hos ham på arbeid. Henne likte herremannen riktig godt, og da hun var fattigfolks barn, så tenkte han at når han bare klunket på gifting, så måtte hun slå til med det samme. Så sa han til henne at han var kommet i tanker om å gifte seg igjen.

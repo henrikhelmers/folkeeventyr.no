@@ -4,6 +4,17 @@ title: Følgesvennen
 tags:
   - konger
   - troll
+kilde:
+  samling: ny_samling
+  nr: 100
+  side: 201
+  atu: "507A"
+  engelsk: The Companion
+  runeberg: 50
+om: >
+  En bondegutt bruker pengene sine på å få begravet en død mann. Siden får han
+  en følgesvenn som hjelper ham å vinne en prinsesse som står i ledtog med et
+  troll. Historien om den takknemlige døde er kjent over hele Europa.
 ---
 
 **Det var en gang** en bondegutt som drømte han skulle få en kongsdatter langt borti landene, og hun var så rød og hvit som melk og blod, og så rik at det aldri kunne bli ende på rikdommen hennes. Da han våknet, syntes han hun sto lys levende for ham enda, og han tykte hun var så fin og vakker at han kunne ikke være til om han ikke fikk henne. Så solgte han det han eide, og reiste ut i verden for å lete henne opp.

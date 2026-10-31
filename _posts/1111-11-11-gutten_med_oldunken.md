@@ -4,6 +4,17 @@ title: Gutten med øldunken
 tags:
   - mannfolk
   - Gamle-Erik
+kilde:
+  samling: ny_samling
+  nr: 105
+  side: 236
+  atu: "332"
+  engelsk: Death and the Doctor
+  runeberg: 73
+om: >
+  En gutt deler juleølet sitt med Døden og blir lege. Han ser hvor Døden står
+  ved sengen, og vet om den syke skal leve eller dø, men til slutt kommer
+  Døden for ham også. Samme type finnes hos Grimm-brødrene som «Gudfar Død».
 ---
 
 

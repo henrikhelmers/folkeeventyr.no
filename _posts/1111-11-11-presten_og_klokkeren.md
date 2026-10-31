@@ -4,6 +4,18 @@ title: Presten og klokkeren
 tags:
   - konger
   - presten
+kilde:
+  samling: ny_samling
+  nr: 86
+  side: 126
+  atu: "922"
+  engelsk: The Priest and the Clerk
+  runeberg: 27
+om: >
+  En hovmodig prest må svare på tre spørsmål fra kongen. Klokkeren tar på seg
+  presteklærne og svarer for ham, og kongen lar dem bytte plass. Samme
+  historie er kjent i Europa fra middelalderen, blant annet i den engelske
+  balladen om kong John og abbeden av Canterbury.
 ---
 
 

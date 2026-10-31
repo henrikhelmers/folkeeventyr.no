@@ -16,3 +16,11 @@ norske_folkeeventyr:
     - Jørgen Moe
   nb: URN:NBN:no-nb_digibok_2008103012001
   nb_forskyvning: 72
+
+ny_samling_1876:
+  tittel: Norske Folke-Eventyr. Ny Samling
+  utgitt: 1876
+  forfattere:
+    - Peter Christen Asbjørnsen
+  nb: URN:NBN:no-nb_digibok_2008102912003
+  nb_forskyvning: 20

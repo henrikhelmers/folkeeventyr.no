@@ -4,6 +4,18 @@ title: Kvitebjørn kong Valemon
 tags:
   - prinsesser
   - konger
+kilde:
+  samling: ny_samling
+  nr: 90
+  side: 154
+  atu: "425"
+  engelsk: King Valemon, the White Bear
+  runeberg: 93
+om: >
+  En prinsesse drar med en kvit bjørn som egentlig er kong Valemon. Hun tenner
+  lys for å se ham, og han må dra til en trollkjerring. Hun leter etter ham og
+  får hjelp av sine egne barn. Eventyret er i slekt med «Østenfor sol og
+  vestenfor måne».
 ---
 
 

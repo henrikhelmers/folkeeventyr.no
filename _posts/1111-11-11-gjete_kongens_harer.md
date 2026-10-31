@@ -5,6 +5,17 @@ tags:
   - Askeladden
   - konger
   - prinsesser
+kilde:
+  samling: ny_samling
+  nr: 98
+  side: 190
+  atu: "570"
+  engelsk: Osborn's Pipe
+  runeberg: 24
+om: >
+  Askeladden får en pipe som kaller alle harene sammen, og klarer å gjete
+  kongens harer. Prinsessen, dronningen og kongen prøver å kjøpe en hare av
+  ham, og til slutt må Askeladden juge et kar fullt.
 ---
 
 

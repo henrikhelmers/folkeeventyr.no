@@ -4,6 +4,17 @@ title:  Den Syvende Far i Huset
 image: gamle/syvende_far.png
 tags:
   - mannfolk
+kilde:
+  samling: ny_samling
+  nr: 65
+  side: 20
+  atu: "726"
+  engelsk: The Father of the Family
+  runeberg: 16
+om: >
+  En vandringsmann ber om husly og blir sendt fra den ene gamle mannen til den
+  andre, hver eldre enn den forrige. Den sjette henger i et horn på veggen, og
+  først den syvende er far i huset.
 ---
 
 
