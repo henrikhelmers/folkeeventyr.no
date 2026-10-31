@@ -3,6 +3,18 @@ layout: post
 title:  Hvorfor Bjørnen er Stubbrumpet
 tags:
   - bjørnen
+kilde:
+  samling: norske_folkeeventyr
+  nr: 17
+  side: 91
+  atu: "2"
+  engelsk: Why the Bear Is Stumpy-Tailed
+  runeberg: 128
+om: >
+  Reven lurer bjørnen til å fiske med halen gjennom et hull i isen, og da han
+  rykker den opp, ryker den av. Det er det første av to korte eventyr om
+  bjørnen og reven, skrevet ned av Jørgen Moe. Eventyret om den korte
+  bjørnehalen er et av de mest utbredte dyreeventyrene i Nord-Europa.
 ---
 
 **Bjørnen møtte en gang** reven, som kom luskende med et knippe fisk han

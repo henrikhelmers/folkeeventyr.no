@@ -3,6 +3,18 @@ layout: post
 title: Østenfor Sol og Vestenfor Måne
 tags:
   - prinsesser
+kilde:
+  samling: norske_folkeeventyr
+  nr: 41
+  side: 249
+  atu: "425"
+  engelsk: East o' the Sun and West o' the Moon
+  runeberg: 34
+om: >
+  En fattig mann gir den yngste datteren sin til en kvit bjørn. Hun tenner lys
+  for å se hvem som sover ved siden av henne om natten, og må lete etter ham
+  til slottet østenfor sol og vestenfor måne. Asbjørnsen skrev det ned.
+  Eventyret er i slekt med den antikke fortellingen om Amor og Psyke.
 ---
 
 

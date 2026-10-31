@@ -5,6 +5,17 @@ image: /erik_werenskiold-de_tre_kongsdøtre_i_berget_det_blaa.png
 tags:
   - konger
   - prinsesser
+kilde:
+  samling: norske_folkeeventyr
+  nr: 44
+  side: 267
+  atu: "700"
+  engelsk: Thumbikin
+  runeberg: 14
+om: >
+  Tommeliten er ikke lenger enn en tommelfinger, men skal likevel ut og fri.
+  Han gjemmer seg i manen og øret på hesten, får prinsessen og drukner til
+  slutt i smørøyet i bryllupsgrauten. Asbjørnsen skrev det ned.
 ---
 
 

@@ -4,6 +4,18 @@ title: Reven som Gjeter
 image: erik_werenskiold-reven_som_gjeter.png
 tags:
   - reven
+kilde:
+  samling: norske_folkeeventyr
+  nr: 20
+  side: 113
+  atu: "37"
+  engelsk: The Fox as Herdsman
+  runeberg: 54
+om: >
+  En kone leter etter en gjeter, og reven får jobben fordi han kan lokke på
+  dyrene. Han spiser opp hele buskapen, og da hun kaster fløten etter ham, får
+  han en hvit flekk på halen. Derfor har reven hvit haletipp. Asbjørnsen skrev
+  det ned.
 ---
 
 

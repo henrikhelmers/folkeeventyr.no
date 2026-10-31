@@ -5,6 +5,18 @@ tags:
   - Askeladden
   - troll
   - konger
+kilde:
+  samling: norske_folkeeventyr
+  nr: 1
+  side: 1
+  atu: "328"
+  engelsk: Boots and the Troll
+  runeberg: 112
+om: >
+  Askeladden tjener på kongsgården og stjeler trollets sølvender, sengeteppe
+  og gullharpe. Da trollet fanger ham og vil slakte ham, lurer han
+  trolldatteren og slipper unna. Jørgen Moe skrev det ned. I den første
+  utgaven het helten Askepot, men i senere utgaver ble han Askeladden.
 ---
 
 

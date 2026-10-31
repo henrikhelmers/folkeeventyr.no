@@ -4,6 +4,17 @@ title:  Smørbukk
 image: gamle/smoerbukk_2.png
 tags:
   - kjerringer
+kilde:
+  samling: norske_folkeeventyr
+  nr: 52
+  side: 327
+  atu: "327C"
+  engelsk: Buttercup
+  runeberg: 51
+om: >
+  En trollkjerring lokker den lille, tykke Smørbukk ned i en sekk tre ganger.
+  Den siste gangen lurer han trollene til å spise sin egen datter. Asbjørnsen
+  skrev det ned.
 ---
 
 **Det var en gang** en kjerring som satt og bakte. Hun hadde en liten gutt—han var så tykk og fet og ville så gjerne ha god mat. Derfor kalte hun ham Smørbukk. Hun hadde også en hund de kalte Gulltann. Rett som det var, satte hunden i å gjø.

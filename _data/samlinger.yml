@@ -7,3 +7,12 @@ ny_samling:
     - Peter Christen Asbjørnsen
   nb: URN:NBN:no-nb_digibok_2015061929001
   nb_forskyvning: 12
+
+norske_folkeeventyr:
+  tittel: Norske Folkeeventyr
+  utgitt: 1852
+  forfattere:
+    - Peter Christen Asbjørnsen
+    - Jørgen Moe
+  nb: URN:NBN:no-nb_digibok_2008103012001
+  nb_forskyvning: 72

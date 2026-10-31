@@ -4,6 +4,17 @@ title: Mannen som skulle stelle hjemme
 tags:
   - kjerringer
   - grisen
+kilde:
+  samling: norske_folkeeventyr
+  nr: 43
+  side: 264
+  atu: "1408"
+  engelsk: The Husband Who Was to Mind the House
+  runeberg: 10
+om: >
+  En mann mener kona har det lettere enn han, og de bytter arbeid for en dag.
+  Ølet renner ut og smøret går til spille, og til slutt henger han opp ned i
+  pipa mens kua henger utfor taket. Asbjørnsen skrev det ned.
 ---
 
 

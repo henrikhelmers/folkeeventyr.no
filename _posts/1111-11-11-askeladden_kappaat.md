@@ -5,6 +5,19 @@ image: theodor_kittelsen-askeladden_som_kapaad_med_troldet.png
 tags:
   - Askeladden
   - troll
+kilde:
+  samling: norske_folkeeventyr
+  nr: 6
+  side: 36
+  atu: "1000"
+  engelsk: The Boy Who Had an Eating Match with a Troll
+  runeberg: 49
+om: >
+  Askeladden møter et troll i skogen og lurer det to ganger. Først klemmer han
+  en ost og later som det er en stein. Så kappeter de, men Askeladden har
+  maten i en skreppe og skjærer hull i den, og trollet gjør det samme med
+  magen sin. Jørgen Moe skrev det ned. Osten som skal være en stein, kjennes
+  også fra Grimm-brødrenes «Det tapre lille skredderen».
 ---
 
 **Det var en gang** en bonde som hadde tre sønner; han var i små kår og

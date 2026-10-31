@@ -5,6 +5,17 @@ tags:
   - konger
   - prinsesser
   - troll
+kilde:
+  samling: norske_folkeeventyr
+  nr: 19
+  side: 98
+  atu: "510AB"
+  engelsk: Katie Woodencloak
+  runeberg: 106
+om: >
+  En prinsesse flykter fra en ond stemor sammen med en stor blå stut, og tar
+  tjeneste på en kongsgård i en stakk av tre. Asbjørnsen skrev det ned.
+  Eventyret er en norsk variant av Askepott.
 ---
 
 **Det var en gang** en konge som var blitt enkemann. Etter dronningen sin hadde han en datter, som var så snill og så vakker at ingen kunne være snillere og vakrere.

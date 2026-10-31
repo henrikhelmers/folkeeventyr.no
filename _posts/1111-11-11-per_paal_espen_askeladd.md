@@ -6,6 +6,18 @@ tags:
   - Per
   - Pål
   - Askeladden
+kilde:
+  samling: norske_folkeeventyr
+  nr: 49
+  side: 306
+  atu: "577"
+  engelsk: Boots and His Brothers
+  runeberg: 134
+om: >
+  Kongen lover prinsessen og halve riket til den som kan felle en eik og grave
+  en brønn. Per og Pål ler av broren som undrer seg over alt, men det er
+  Askeladden som finner en øks, en hakke og en valnøtt som gjør jobben. Jørgen
+  Moe skrev det ned.
 ---
 
 **Det var en gang** en mann som hadde tre sønner, Per og Pål og Espen

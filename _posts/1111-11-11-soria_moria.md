@@ -4,6 +4,18 @@ title:  Soria Moria Slott
 tags:
   - prinsesser
   - troll
+kilde:
+  samling: norske_folkeeventyr
+  nr: 27
+  side: 145
+  atu: "400"
+  engelsk: Soria Moria Castle
+  runeberg: 46
+om: >
+  Halvor, som bare satt i asken, går i land på en fremmed kyst og befrir tre
+  prinsesser fra tre troll. Han vil hjem og vise seg for foreldrene, mister
+  prinsessen og må lete etter Soria Moria slott. Asbjørnsen skrev det ned.
+  Tolkien skrev at navnet Moria i Ringenes herre er et ekko av Soria Moria.
 ---
 
 **Det var en gang** et par folk som hadde en sønn, og han hette Halvor. Like

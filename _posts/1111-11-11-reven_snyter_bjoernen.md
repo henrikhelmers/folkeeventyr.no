@@ -5,6 +5,19 @@ image:
 tags:
   - reven
   - bjørnen
+kilde:
+  samling: norske_folkeeventyr
+  nr: 17
+  side: 91
+  atu: "15"
+  engelsk: Bruin and Reynard
+  runeberg: 128
+om: >
+  Bjørnen og reven har kjøpt en smørholk til jul. Tre ganger sier reven at han
+  er bedt i barsel, og hver gang spiser han av smøret. Til slutt smører han
+  det siste på bjørnen, så han blir den skyldige. Det er det andre av to
+  eventyr om bjørnen og reven. Samme type finnes hos Grimm-brødrene som «Katt
+  og mus i kompaniskap».
 ---
 
 **Bjørnen og reven** hadde en gang kjøpt seg en smørholk i hop; den skulle
