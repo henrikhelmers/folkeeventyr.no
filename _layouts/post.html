@@ -2,14 +2,10 @@
 layout: default
 ---
 
-  <article class="eventyr wrapper">
+  <article class="eventyr wrapper{% unless page.image %} uten-bilde{% endunless %}">
 
     {% if page.image %}
       {% include figure.html path=page.image class="storyimage" fallback_alt=page.title fetchpriority="high" %}
-    {% else %}
-    <br/>
-    <br/>
-    <br/>
     {% endif %}
 
     <h1>{{ page.title }}</h1>
@@ -25,10 +21,10 @@ layout: default
 
     {% if page.audio %}
       <div id="lydbok">
-        <audio id="lydbok-audio">
+        <audio id="lydbok-audio" preload="none">
           <source src="/audio/{{page.audio}}">
         </audio>
-        <button id="lydbok-kontroll" aria-label="Spill av eller pause lydboken">
+        <button id="lydbok-kontroll" aria-label="Spill av lydboken" aria-pressed="false">
           <span class="play-grafikk"></span>
         </button>
 
@@ -42,16 +38,24 @@ layout: default
           const playGrafikk = document.querySelector(".play-grafikk");
           const playGrafikkKlasser = playGrafikk.classList;
 
+          function visPause() {
+            playGrafikkKlasser.remove("stopp");
+            playGrafikkKlasser.add("til-play");
+            lydbokKontroll.setAttribute("aria-pressed", "false");
+          }
+
           lydbokKontroll.addEventListener("click", () => {
             if (playGrafikkKlasser.contains("stopp")) {
-              playGrafikkKlasser.remove("stopp");
-              playGrafikkKlasser.add("til-play");
               lydbokAudio.pause();
+              visPause();
             } else if (!playGrafikkKlasser.contains("til-play")) {
               playGrafikkKlasser.add("stopp");
+              lydbokKontroll.setAttribute("aria-pressed", "true");
               lydbokAudio.play();
             }
           });
+
+          lydbokAudio.addEventListener("ended", visPause);
 
           playGrafikk.addEventListener("transitionend", () => {
             playGrafikkKlasser.remove("til-play");

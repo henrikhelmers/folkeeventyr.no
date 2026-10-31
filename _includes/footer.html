@@ -29,11 +29,22 @@
 </footer>
 <script>
 
-  function setCustomProperties() {
-    const target = document.documentElement;
-    const viewPortSize = `${target.clientWidth}px ${target.clientHeight}px`;
-    target.style.setProperty("--background-size", viewPortSize);
-    target.style.setProperty("--scroll", window.pageYOffset + "px");
+  const root = document.documentElement;
+  let scrollQueued = false;
+
+  function setBackgroundSize() {
+    root.style.setProperty("--background-size", `${root.clientWidth}px ${root.clientHeight}px`);
+  }
+
+  function setScroll() {
+    root.style.setProperty("--scroll", window.scrollY + "px");
+    scrollQueued = false;
+  }
+
+  function queueScroll() {
+    if (scrollQueued) return;
+    scrollQueued = true;
+    requestAnimationFrame(setScroll);
   }
 
   function goldEffect(textNode) {
@@ -60,10 +71,10 @@
   if (introLine) createIntroLine(introLine);
   document.querySelectorAll(".gold").forEach(textNode => goldEffect(textNode));
 
-  document.addEventListener("scroll", setCustomProperties, false);
-  document.addEventListener("touchmove", setCustomProperties, false);
-  window.addEventListener("resize", setCustomProperties, false);
+  document.addEventListener("scroll", queueScroll, { passive: true });
+  window.addEventListener("resize", setBackgroundSize, { passive: true });
 
-  setCustomProperties()
+  setBackgroundSize();
+  setScroll();
 
 </script>
