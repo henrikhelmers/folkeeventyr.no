@@ -1,0 +1,9 @@
+# nb_forskyvning: trykt sidetall + forskyvning = bildenummeret i NBs skanning.
+
+ny_samling:
+  tittel: Norske Folke-Eventyr. Ny Samling
+  utgitt: 1871
+  forfattere:
+    - Peter Christen Asbjørnsen
+  nb: URN:NBN:no-nb_digibok_2015061929001
+  nb_forskyvning: 12

@@ -7,6 +7,20 @@ images:
 tags:
   - presten
   - konger
+kilde:
+  samling: ny_samling
+  nr: 82
+  side: 101
+  atu: "1641"
+  engelsk: The Charcoal Burner
+  runeberg: 39
+om: >
+  En lat kullbrenner kjøper prestekappe og krage på auksjon og gir seg ut for
+  å være en vis prest. Ved rene tilfeldigheter skremmer han tyvene til å
+  tilstå at de har stjålet kongens ring. Eventyret står i Asbjørnsens Ny
+  Samling fra 1871. Historien om den falske spåmannen som treffer blink ved
+  flaks er kjent over hele Europa, blant annet som Grimm-brødrenes «Doktor
+  Allwissend».
 ---
 
 

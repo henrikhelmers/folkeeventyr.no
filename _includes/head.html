@@ -35,6 +35,16 @@
       "inLanguage": "nb",
       "genre": "Folkeeventyr",
       "keywords": {{ page.tags | join: ", " | jsonify }},
+      {% assign samling = site.data.samlinger[page.kilde.samling] %}
+      {% if samling %}
+      "isBasedOn": {
+        "@type": "Book",
+        "name": {{ samling.tittel | jsonify }},
+        "datePublished": "{{ page.kilde.utgitt | default: samling.utgitt }}",
+        "author": [{% for forfatter in samling.forfattere %}{ "@type": "Person", "name": {{ forfatter | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}],
+        "url": "https://urn.nb.no/{{ samling.nb }}"
+      },
+      {% endif %}
       "isPartOf": { "@type": "WebSite", "name": {{ site.title | jsonify }}, "url": {{ site.url | jsonify }} }
     }
   </script>

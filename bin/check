@@ -26,6 +26,7 @@ sizes = YAML.load_file("_data/image_sizes.yml").keys
 (sizes - images).each { |f| errors << "_data/image_sizes.yml: #{f} finnes ikke i images/, kjør bin/image-sizes" }
 
 image_data = YAML.load_file("_data/images.yml")
+samlinger = YAML.load_file("_data/samlinger.yml")
 post_urls = []
 tracked.grep(%r{\A_posts/.+\.(md|markdown)\z}).each do |f|
   source = File.read(f)
@@ -34,6 +35,16 @@ tracked.grep(%r{\A_posts/.+\.(md|markdown)\z}).each do |f|
   tags = front_matter["tags"]
   errors << "#{f}: tags må være en liste" unless tags.nil? || tags.is_a?(Array)
   post_urls << "/#{File.basename(f, '.*').delete_prefix('1111-11-11-')}/"
+
+  if (kilde = front_matter["kilde"])
+    errors << "#{f}: kilde.samling #{kilde['samling'].inspect} finnes ikke i _data/samlinger.yml" unless samlinger.key?(kilde["samling"])
+    %w[nr side utgitt runeberg].each do |felt|
+      errors << "#{f}: kilde.#{felt} må være et heltall" if kilde.key?(felt) && !kilde[felt].is_a?(Integer)
+    end
+    atu = kilde["atu"]
+    errors << "#{f}: kilde.atu må være tekst i anførselstegn, som \"2025\" eller \"510AB\"" unless atu.nil? || (atu.is_a?(String) && atu.match?(/\A\d+[A-Z]*(-[A-Z])?\z/))
+    errors << "#{f}: har kilde, men mangler om" unless front_matter["om"]
+  end
 
   source.scan(/\{% include image\.html path=[^"'].*?%\}/) { |m| errors << "#{f}: path i #{m} mangler anførselstegn og viser ingenting" }
 
