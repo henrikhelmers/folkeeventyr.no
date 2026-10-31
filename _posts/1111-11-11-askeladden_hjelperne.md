@@ -81,8 +81,6 @@ Når han våknet sto skipet fullt ferdig jevnsides med eika.  "Nå skal du stige
 Da han hadde seilt et stykke, kom han til en lang, mager fant som lå bortmed et berg og åt gråstein. "Hva er du for en kar, som ligger her og eter gråstein?" sa Askeladden.
 
 
-{% include image.html path=page.images.otton_sinding-askeladden_og_de_gode_hjelperne_2.png %}
-
 Jo, han var så kjøttsulten at han aldri kunne bli mett, derfor var han nødt til å ete gråstein, sa han, og så ba han om han kunne få lov til å være med skipet.
 "Ja, vil du være med, så stig på," sa Askeladden.
 
@@ -100,8 +98,6 @@ Ja, det ville han, og han steg oppi, han også. Da de hadde seilt et stykke til,
 "Jeg ser så skarpt," sa han, "så jeg ratt kan skyte like til verdens ende," og så ba han om han fikk lov til å være med skipet.
 "Vil du være med, så stig på," sa Askeladden.
 Ja, det ville han, og steg opp.
-
-{% include image.html path=page.imagesotton_sinding-askeladden_og_de_gode_hjelperne_3.png %}
 
 
 Da de hadde seilt et stykke igjen, kom de til en som fór og hoppet på ett ben, og det andre hadde han syv skippunds lodd på. (Ett Skippund er ca 160Kg. Så det var ganske mye)
@@ -132,8 +128,6 @@ Kongen gikk ut til bua, og tom var den, det var sikkert og visst; Askeladden var
 Askeladden tok med ham som pattet på turen og støtt var så øltørst, og så låste kongen dem ned i kjelleren.
 Der drakk han tønne etter tønne, så lenge det var noe igjen, men den siste eslet (sparte) han en tår, så det kunne være et par potter ( eldre mål for flytende varer, omtrent 1 liter ) igjen til hver av kameratene.
 
-{% include image.html path=page.images.otton_sinding-askeladden_og_de_gode_hjelperne_4.png %}
-
 Om morgenen lukket de opp kjelleren, og med det samme strøk Askeladden inn til kongen, og sa han var ferdig med ølet og vinen, og nå fikk han vel datter hans, som han hadde lovt.
 "Ja, først får jeg ned i kjelleren og se," sa kongen, for han trodde det ikke; da han kom ned i kjelleren, var det ikke annet enn tomme tønner igjen.
 Men Askeladden var både svart og sotet, og kongen syntes det var ulikt å ha slik en måg(svigersønn).
@@ -149,8 +143,6 @@ Men så ropte Askeladden på ham som hørte graset gro, og sa han fikk lye etter
 
 Så ropte Askeladden på ham som skjøt like til verdens ende, og ba ham sette en kule i trollet. Ja, det gjorde han, han skjøt det midt i øyet; trollet slo opp et brøl, så han som skulle hente tevann våknet med det samme, han, og da han kom til kongsgården, var det enda ett minutt igjen.
 
-
-{% include image.html path=page.images.otton_sinding-askeladden_og_de_gode_hjelperne_4.png %}
 
 Askeladden strøk inn til kongen og sa at der var vannet, og nå fikk han vel kongsdatteren, det var vel ikke mer å snakke om det. Men kongen syntes han var svart og sotet nå som før, og likte ikke å ha ham til måg. Så sa kongen at han hadde tre hundre favner ved, som han skulle tørke korn med på badstua, "og det er det samme, er du kar til å sitte der og brenne opp den, så skal du få henne, det er ikke tvil om det," sa han.
 "Jeg får friste," sa Askeladden; "men jeg får vel lov til å ta med en av kameratene mine?"

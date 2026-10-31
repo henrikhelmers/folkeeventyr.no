@@ -11,6 +11,8 @@ highlighter: none
 incremental: false
 safe: true
 strict_front_matter: true
+include:
+  - _og.jpg # Jekyll hopper ellers over filer som starter med _
 exclude:
   - bin
   - README.md
