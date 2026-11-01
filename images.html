@@ -4,13 +4,9 @@ title: Alle illustrasjoner
 noindex: true
 ---
 
-
-{% for image in site.data.images %}
-  <div style="display: inline-block; max-width: 200px">
+<section class="bildeoversikt">
+  {% for image in site.data.images %}
     {% assign image_path = image[0] %}
-    {% assign image_data = image[1] %}
-    {% assign image_size = site.data.image_sizes[image_path] %}
-    <img src="/images/{{ image_path }}" alt="{{ image_data.title | escape }}" width="{{ image_size.w }}" height="{{ image_size.h }}" loading="lazy" decoding="async">
-    {% include image-credit.html image=image_data %}
-  </div>
-{% endfor %}
+    {% include figure.html path=image_path credit="full" loading="lazy" %}
+  {% endfor %}
+</section>
