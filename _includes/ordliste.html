@@ -1,0 +1,35 @@
+{%- capture skilletegn -%}. , ; : ! ? " ' ( ) [ ] - – — « » … * & “ ” ‘ ’ /{%- endcapture -%}
+{%- assign tekst = include.tekst | newline_to_br | replace: "<", " <" | strip_html | strip_newlines | downcase -%}
+{%- assign skilletegn = skilletegn | split: " " -%}
+{%- for tegn in skilletegn -%}
+  {%- assign tekst = tekst | replace: tegn, " " -%}
+{%- endfor -%}
+{%- assign tekst = tekst | prepend: " " | append: " " -%}
+
+{%- capture ordliste -%}
+  {%- for oppslag in site.data.ordliste -%}
+    {%- assign former = oppslag.former | default: oppslag.ord | join: "|" | split: "|" -%}
+    {%- for form in former -%}
+      {%- assign sok = form | prepend: " " | append: " " -%}
+      {%- if tekst contains sok %}
+        <dt>{{ oppslag.ord }}</dt>
+        <dd>{{ oppslag.forklaring }}</dd>
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- assign ordliste = ordliste | strip %}
+{% if ordliste != "" %}
+  <section class="uvanlige-ord">
+    <h2>Uvanlige ord</h2>
+    <dl>
+      {{ ordliste }}
+    </dl>
+  </section>
+
+  <div class="ornament" aria-hidden="true">
+    <span>RQPPOS</span>
+  </div>
+{% endif %}

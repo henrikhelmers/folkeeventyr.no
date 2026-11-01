@@ -41,6 +41,7 @@ Hver push til `main` bygges, sjekkes og publiseres via GitHub Actions.
 - `_data/images.yml`: tittel, kunstner og annen info om hvert bilde i `images/`.
 - `_data/image_sizes.yml`: bildestørrelser. Generer på nytt med `bin/image-sizes` (krever ImageMagick) når du legger til bilder.
 - `_data/samlinger.yml`: utgavene eventyrene er hentet fra, med tittel, år, forfattere og URN hos Nasjonalbiblioteket. `nb_forskyvning` legges til et trykt sidetall for å få `?page=` hos nb.no, som teller bildene fra 0.
+- `_data/ordliste.yml`: uvanlige ord med forklaring. Et eventyr som bruker et av ordene, får dem forklart under «Uvanlige ord» nederst. Ordet må stå som et helt ord, så list bøyningsformene i `former`, for eksempel `[niste, nista, nisten, nisteskreppen]`.
 - `<tag>/index.html`: én side per tag, med `layout: tag_index`.
 
 ### Kilder i et eventyr

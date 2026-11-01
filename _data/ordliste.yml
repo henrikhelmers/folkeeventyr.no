@@ -1,0 +1,565 @@
+# Uvanlige ord som forklares nederst i eventyrene.
+# Et eventyr viser et ord hvis teksten inneholder en av `former` (eller `ord`
+# når `former` mangler) som et helt ord. Skriv alt med små bokstaver,
+# i alfabetisk rekkefølge.
+
+- ord: agne
+  former: [agner, agnene]
+  forklaring: Skallet rundt kornet, som skilles fra ved tresking.
+
+- ord: alen
+  forklaring: Gammelt lengdemål, omtrent 63 cm.
+
+- ord: allfarvei
+  former: [allfarvei, alfarveien, allfarveien, allfarveiene]
+  forklaring: Hovedveien, den veien alle bruker.
+
+- ord: almue
+  former: [almue, almuen, kirkealmuen]
+  forklaring: Vanlige folk, bygdefolket.
+
+- ord: avindsyk
+  former: [avindsyk, avindsyke]
+  forklaring: Misunnelig.
+
+- ord: bakstefjøl
+  former: [bakstefjøl, bakstefjøla]
+  forklaring: Tynt brett til å flytte flatbrød og lefser med når man baker.
+
+- ord: barm
+  former: [barm, barmen]
+  forklaring: Brystet. «I barmen» betyr innenfor klærne på brystet.
+
+- ord: biksel
+  former: [biksel, gullbiksel, kobberbiksel, sølvbiksel]
+  forklaring: Bisselet, metallstangen i munnen på en hest som tøylene festes til.
+
+- ord: blakk
+  former: [blakke]
+  forklaring: Lys gulbrun, om hest.
+
+- ord: boss
+  forklaring: Rusk og avfall.
+
+- ord: budeie
+  former: [budeie, kongsgårdsbudeia]
+  forklaring: Jente som stelte og melket kuene, gjerne på setra.
+
+- ord: bøling
+  former: [bøling, bølingen]
+  forklaring: Flokk med kyr, buskap.
+
+- ord: børse
+  former: [børse, børsa]
+  forklaring: Gevær.
+
+- ord: dagning
+  forklaring: Daggry, når det begynner å lyse om morgenen.
+
+- ord: daler
+  former: [daler, dalerne]
+  forklaring: Gammel sølvmynt. Hundre daler var mye penger.
+
+- ord: dannekvinne
+  former: [dannekvinner]
+  forklaring: Skikkelig og hederlig kvinne.
+
+- ord: daustokk
+  forklaring: Død stokk, noe som ligger helt stille og ikke rører seg.
+
+- ord: dugurd
+  forklaring: Formiddagsmat.
+
+- ord: døyve
+  former: [døyvde]
+  forklaring: Dempe, lindre.
+
+- ord: eksersere
+  former: [eksersere, ekserserte, ekserserplass]
+  forklaring: Øve som soldat, marsjere og drille.
+
+- ord: fagnamann
+  forklaring: Gjestfri mann, en som tar godt imot folk.
+
+- ord: fanteskap
+  former: [fanteskap, fantestreker, fantestykkene]
+  forklaring: Lureri og skøyerstreker.
+
+- ord: fark
+  forklaring: Kjeltring, skurk. «På fark» betyr på vandring.
+
+- ord: favn
+  former: [favn, favne, favner]
+  forklaring: Gammelt lengdemål, så langt som man rekker med armene ut til siden, omtrent 1,9 meter.
+
+- ord: fe
+  former: [fe, feet]
+  forklaring: Husdyr, buskap.
+
+- ord: ferdesmann
+  former: [ferdesmann, ferdesmannen]
+  forklaring: Reisende, en som er på vei et sted.
+
+- ord: fjel
+  former: [fjelen]
+  forklaring: Planke, bord.
+
+- ord: fjerding
+  former: [fjerding, fjerdinger, bakfjerdingen, framfjerding]
+  forklaring: En fjerdedel, for eksempel av et slakt, av en mil eller av et år.
+
+- ord: fjorgammel
+  forklaring: Ett år gammel, født i fjor.
+
+- ord: forgjort
+  forklaring: Forhekset, under en trolldom.
+
+- ord: forladning
+  former: [forladning, forladninger]
+  forklaring: Propp eller skive som holdt krutt og kule på plass i et gammeldags gevær.
+
+- ord: forslå
+  former: [forslo]
+  forklaring: Monne, være nok til noe.
+
+- ord: forstue
+  former: [forstue, forstuen, forstubordet]
+  forklaring: Rommet innenfor inngangsdøren, entré.
+
+- ord: fut
+  former: [fut, futen, gårdsfuten, tømmerfuten]
+  forklaring: Embetsmann som krevde inn skatt og holdt orden. En gårdsfut eller tømmerfut var en slags oppsynsmann.
+
+- ord: galt
+  former: [galten]
+  forklaring: Hanngris.
+
+- ord: gamp
+  forklaring: Stor, tung arbeidshest.
+
+- ord: gasse
+  former: [gasse, gassen]
+  forklaring: Hanngås.
+
+- ord: geip
+  former: [geipen]
+  forklaring: Grimase.
+
+- ord: geiteragg
+  forklaring: Langt, stritt geitehår.
+
+- ord: gjev
+  former: [gjev, gjevt, gjevere, gjeveste]
+  forklaring: Fin, staselig, verdt mye.
+
+- ord: gjure
+  former: [gjure, gjuret]
+  forklaring: Juret, der melken kommer ut på en ku eller geit.
+
+- ord: gjøne
+  former: [gjønte]
+  forklaring: Gjøre narr av, spotte.
+
+- ord: glugg
+  forklaring: Liten åpning eller lite vindu. «Skyte for glugg» betyr å kaste ut eller vrake.
+
+- ord: gnall
+  forklaring: Gjallet, smalt høyt.
+
+- ord: grann
+  former: [grann, smørgrann]
+  forklaring: Litt, en smule.
+
+- ord: granne
+  former: [granne, grannen, grannene, granner, grannemannen, grannekjerringa, grannegården, grannelaget, granneteigen]
+  forklaring: Nabo.
+
+- ord: grom
+  former: [grom, gromt]
+  forklaring: Fin, flott, prektig.
+
+- ord: gråbein
+  former: [gråbein, gråbeinen]
+  forklaring: Ulv.
+
+- ord: guste
+  former: [guster]
+  forklaring: Blåse kaldt.
+
+- ord: gylte
+  forklaring: Ung purke, hunngris.
+
+- ord: helle
+  former: [helle, hellestein, dørhella, rephella]
+  forklaring: Flat stein. Dørhella er steinen utenfor døren.
+
+- ord: hesje
+  former: [hesje, hesja, løvhesjene]
+  forklaring: Stativ av stolper og streng der man henger høy eller løv til tørk.
+
+- ord: hespetre
+  former: [hespetre, hespetreet, gullhespetre, hespe]
+  forklaring: Redskap til å vinde garn opp på. Å hespe er å vinde garn opp på et hespetre.
+
+- ord: holk
+  former: [holk, holken, smørholk, smørholken]
+  forklaring: Lite trekar eller boks med lokk, gjerne til smør.
+
+- ord: hurv
+  former: [hurv, hurven]
+  forklaring: Flokk, gjeng. «Hele hurven» betyr alle sammen.
+
+- ord: husbond
+  former: [husbond, husbonden, husbonds, husbondsfolk]
+  forklaring: Mannen i huset, den som rådet på gården.
+
+- ord: ildmørje
+  forklaring: Glødende aske.
+
+- ord: ildstål
+  former: [ildstålet]
+  forklaring: Stålbit man slo mot flint for å få gnister og tenne opp.
+
+- ord: jeksel
+  former: [jekselen]
+  forklaring: Kinntann.
+
+- ord: jonsok
+  former: [jonsok, jonsokkveld, jonsoknatt, jonsoknatten, jonsoknettene]
+  forklaring: Sankthans, midtsommer.
+
+- ord: kagge
+  former: [kagge, kaggen]
+  forklaring: Lite trefat eller tønne.
+
+- ord: kakse
+  forklaring: Rik og mektig mann.
+
+- ord: kall
+  former: [kallen]
+  forklaring: Gammel mann.
+
+- ord: kammers
+  former: [kammers, kammerset]
+  forklaring: Lite rom, soverom.
+
+- ord: karde
+  former: [karde, karder, kardet]
+  forklaring: Børste til å gre ull med før den spinnes.
+
+- ord: kaut
+  former: [kaut, kaute]
+  forklaring: Stolt, kry.
+
+- ord: kjekle
+  forklaring: Krangle.
+
+- ord: kjette
+  former: [kjette, kjetta]
+  forklaring: Katt.
+
+- ord: klave
+  former: [klave, klaven]
+  forklaring: Halsbånd av tre til kuer.
+
+- ord: klokker
+  former: [klokker, klokkeren, klokkere]
+  forklaring: Mann som hjalp presten i kirken, med sang og ringing.
+
+- ord: klopp
+  former: [klopp, kloppen]
+  forklaring: Enkel bro av stokker over en bekk.
+
+- ord: klyve
+  forklaring: Klatre.
+
+- ord: knipen
+  forklaring: Gjerrig.
+
+- ord: kope
+  former: [kope, kopte]
+  forklaring: Glane, stå og stirre.
+
+- ord: korp
+  former: [korp, korpen]
+  forklaring: Ravn.
+
+- ord: kramse
+  forklaring: Klemme og gramse på.
+
+- ord: krekebær
+  former: [krekebær, krekebæra]
+  forklaring: Krekling, små svarte bær som vokser på heia.
+
+- ord: kryl
+  forklaring: Pukkel. «Slå kryl på ryggen» betyr å krumme ryggen.
+
+- ord: kurende
+  forklaring: «Kurende stilt» betyr helt stille.
+
+- ord: kvartel
+  forklaring: Gammelt mål, en liten tønne.
+
+- ord: kveldsvord
+  former: [kveldsvord, kveldsvordstid, kveldvordstid, kveldverden]
+  forklaring: Kveldsmat.
+
+- ord: kvide
+  former: [kvide, kvidde]
+  forklaring: Grue seg.
+
+- ord: kyte
+  forklaring: Skryte.
+
+- ord: landskyld
+  former: [landskyld, landskylden]
+  forklaring: Leie man betalte for å bruke jorden.
+
+- ord: legdegutt
+  former: [legdegutt, legdegutten]
+  forklaring: Fattig gutt som bygda tok seg av ved at han bodde på gårdene etter tur.
+
+- ord: livørsmann
+  forklaring: Gammel mann som har gitt fra seg gården og får bo og mat der resten av livet.
+
+- ord: lyske
+  former: [lyske, lysker, lysket]
+  forklaring: Plukke lus av noen.
+
+- ord: løvkjerv
+  forklaring: Bunt med løvkvister, brukt som dyrefôr om vinteren.
+
+- ord: makse
+  former: [makslet]
+  forklaring: Streve, slite.
+
+- ord: merr
+  former: [merr, merra, prestemerra]
+  forklaring: Hoppe, hunnhest.
+
+- ord: mjød
+  forklaring: Søt drikk laget av honning.
+
+- ord: monne
+  former: [monner, monnet]
+  forklaring: Hjelpe, føre til noe.
+
+- ord: myse
+  former: [myse, mysa, mysekaret]
+  forklaring: Den gulgrønne væsken som blir igjen når man lager ost.
+
+- ord: mæle
+  forklaring: Stemme. «Mål og mæle» betyr evnen til å snakke.
+
+- ord: mønsås
+  former: [mønsås, mønsåsen]
+  forklaring: Den øverste bjelken i taket.
+
+- ord: målbinde
+  former: [målbinde, målbundet, ordbinde]
+  forklaring: Få noen til å bli målløs, så de ikke vet hva de skal svare.
+
+- ord: nau
+  former: [nauer]
+  forklaring: «Det nauer ikke» betyr at det ikke haster.
+
+- ord: navngjeten
+  forklaring: Berømt, som alle har hørt om.
+
+- ord: omheng
+  forklaring: Forheng rundt en seng.
+
+- ord: områ
+  forklaring: «Områ seg» betyr å tenke seg om.
+
+- ord: ormegård
+  former: [ormegården]
+  forklaring: Slangegrop.
+
+- ord: otte
+  former: [otte, otta]
+  forklaring: Tidlig morgen, før solen står opp.
+
+- ord: ovleg
+  forklaring: Overmåte, svært mye.
+
+- ord: pott
+  former: [pott, potter]
+  forklaring: Gammelt mål for drikke, omtrent én liter.
+
+- ord: rubb
+  forklaring: «Rubb og stubb» betyr alt sammen.
+
+- ord: sams
+  former: [sams, usams]
+  forklaring: Enige. Usams betyr uenige.
+
+- ord: serk
+  former: [serk, serken]
+  forklaring: Skjorte eller lang underkjole.
+
+- ord: signe
+  forklaring: Velsigne.
+
+- ord: skigard
+  former: [skigard, skigarden]
+  forklaring: Gjerde av skrå stenger.
+
+- ord: skilling
+  former: [skilling, skillingen, skillingene, skillinger, tobakkskillingen]
+  forklaring: Gammel mynt av liten verdi.
+
+- ord: skippund
+  former: [skippund, skippunds]
+  forklaring: Gammel vektenhet, omtrent 160 kilo.
+
+- ord: skjels
+  forklaring: «Skjels år og alder» betyr gammel nok til å klare seg selv.
+
+- ord: skjæk
+  former: [skjæk, skjækene]
+  forklaring: Stengene foran på en vogn eller slede som hesten spennes mellom.
+
+- ord: skreppe
+  former: [skreppe, skreppa, skreppen, matskreppen, pengeskreppen, skinnskreppen, storskreppen]
+  forklaring: Sekk eller veske man bærer på ryggen.
+
+- ord: skrubb
+  forklaring: Ulv.
+
+- ord: skule
+  former: [skule, skuler]
+  forklaring: Se surt eller mistenksomt opp fra under øyenbrynene.
+
+- ord: skålbrott
+  forklaring: Skår av en knust skål.
+
+- ord: skåte
+  former: [skåte, skåten]
+  forklaring: Skyvbar slå som holder døren igjen.
+
+- ord: snåve
+  former: [snåvet]
+  forklaring: Snuble.
+
+- ord: sodd
+  former: [sodd, soddet]
+  forklaring: Suppe med kjøtt.
+
+- ord: sognebud
+  forklaring: Når presten blir hentet til en som er syk eller døende.
+
+- ord: spekebog
+  former: [spekeboger]
+  forklaring: Speket skulderstykke av et dyr.
+
+- ord: spenntak
+  forklaring: Tak der man spenner beina imot for å dra av all kraft.
+
+- ord: spurlag
+  forklaring: Spor. «Få spurlag på» betyr å få greie på.
+
+- ord: stagge
+  forklaring: Stoppe, holde tilbake.
+
+- ord: staup
+  former: [staup, staupet, sølvstaupet]
+  forklaring: Lite glass eller beger.
+
+- ord: steile
+  forklaring: Høy stake der man i gamle dager la en henrettet forbryter, ofte på et hjul, til skrekk og advarsel.
+
+- ord: stulle
+  former: [stullet]
+  forklaring: Gå og ordne med småting.
+
+- ord: stummende
+  forklaring: «Stummende mørkt» betyr bekmørkt.
+
+- ord: stundomtil
+  forklaring: Av og til.
+
+- ord: stur
+  former: [stur, sturen]
+  forklaring: Nedslått, trist.
+
+- ord: stut
+  former: [stut, stuten]
+  forklaring: Okse.
+
+- ord: støtt
+  forklaring: Alltid.
+
+- ord: svartbeitet
+  forklaring: Beitet så snaut at bare den svarte jorda er igjen.
+
+- ord: sviejern
+  former: [sviejernet]
+  forklaring: Glødende jern til å brennmerke med.
+
+- ord: te
+  former: [tedde]
+  forklaring: Vise fram.
+
+- ord: teig
+  former: [teig, granneteigen]
+  forklaring: Jordstykke.
+
+- ord: telgjeøks
+  former: [telgjeøks, telgje, telgjeøksen]
+  forklaring: Øks til å forme og glatte tre med.
+
+- ord: tollekniv
+  former: [tollekniven]
+  forklaring: Liten kniv til å spikke med.
+
+- ord: tomreipes
+  forklaring: Uten lass eller bør.
+
+- ord: trau
+  former: [trau, trauget, grisetrau, trauemner]
+  forklaring: Avlangt kar av tre som dyr eter av.
+
+- ord: trolovelse
+  forklaring: Forlovelse, løftet om å gifte seg.
+
+- ord: træle
+  former: [træle, trælet]
+  forklaring: Slite tungt.
+
+- ord: tylft
+  former: [tylft, tylfter]
+  forklaring: Tolv stykker.
+
+- ord: tynes
+  forklaring: Gå tapt, omkomme.
+
+- ord: tyri
+  former: [tyri, tyristikker, tyrirot, tyriroten]
+  forklaring: Furuved full av kvae, som brenner godt.
+
+- ord: tåls
+  forklaring: «Slå seg til tåls» betyr å slå seg til ro.
+
+- ord: uråd
+  forklaring: Umulig. «Ane uråd» betyr å mistenke at noe er galt.
+
+- ord: uvøren
+  forklaring: Vill og hensynsløs.
+
+- ord: vadmel
+  forklaring: Tykt, grovt ullstoff.
+
+- ord: vendereis
+  forklaring: «Gjøre vendereis» betyr å snu og dra hjem igjen.
+
+- ord: vidje
+  former: [vidje, vidjekvist, vidjespenning, vidjespenningen]
+  forklaring: Seig kvist av vier, brukt til å binde med.
+
+- ord: vigd
+  forklaring: Viet, gift.
+
+- ord: våronn
+  former: [våronn, våronna]
+  forklaring: Våren, da man pløyde og sådde.
