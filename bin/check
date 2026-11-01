@@ -49,7 +49,7 @@ tracked.grep(%r{\A_eventyr/.+\.(md|markdown)\z}).each do |f|
   source.scan(/\{% include image\.html path=[^"'].*?%\}/) { |m| errors << "#{f}: path i #{m} mangler anførselstegn og viser ingenting" }
 
   used = [front_matter["image"], *front_matter["images"]] + source.scan(/path="([^"]+)"/).flatten.flat_map { |p| p.split(", ") }
-  missing_titles.concat(used.compact.map { |i| i.delete_prefix("/") }.reject { |i| image_data.dig(i, "title") })
+  missing_titles.concat(used.compact.map { |i| i.delete_prefix("/") }.select { |i| ["—", nil].include?(image_data.dig(i, "title")) })
 end
 
 if Dir.exist?("_site")
