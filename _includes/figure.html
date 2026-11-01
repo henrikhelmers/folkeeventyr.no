@@ -1,10 +1,17 @@
-{% assign figure_path = include.path | prepend: "/" | replace: "//", "/" | remove_first: "/" %}
-{% assign figure_image = site.data.images[figure_path] %}
-{% assign figure_size = site.data.image_sizes[figure_path] %}
+{%- assign figure_path = include.path | prepend: "/" | replace: "//", "/" | remove_first: "/" -%}
+{%- assign figure_image = site.data.images[figure_path] -%}
+{%- assign figure_size = site.data.image_sizes[figure_path] -%}
+{%- assign figure_title = figure_image.title -%}
+{%- if figure_title == "—" %}{% assign figure_title = nil %}{% endif -%}
+{%- assign figure_alt = include.alt | default: figure_title | default: include.fallback_alt -%}
 <figure{% if include.class %} class="{{ include.class }}"{% endif %}>
-  <img src="/images/{{ figure_path }}" alt="{{ include.alt | default: figure_image.title | default: include.fallback_alt | escape }}" width="{{ include.width | default: figure_size.w }}" height="{{ include.height | default: figure_size.h }}"{% if include.loading %} loading="{{ include.loading }}" decoding="async"{% endif %}{% if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %}>
+  <img src="/images/{{ figure_path }}" alt="{{ figure_alt | escape }}" width="{{ include.width | default: figure_size.w }}" height="{{ include.height | default: figure_size.h }}"{% if include.loading %} loading="{{ include.loading }}" decoding="async"{% endif %}{% if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %}>
   <figcaption>
+    {%- if include.credit == "full" %}
+    {% include image-credit.html image=figure_image %}
+    {%- else %}
     <div>{{ figure_image.title }}</div>
     <div class="byline">{{ figure_image.artist }}</div>
+    {%- endif %}
   </figcaption>
 </figure>

@@ -72,15 +72,19 @@ layout: default
       <span>RQPPOS</span>
     </div>
 
-    {% if page.images %}
-      <h2>Illustrasjoner</h2>
-      {% for image in page.images %}
-        {% assign image_path = image | prepend: "/" | replace: "//", "/" | remove_first: "/" %}
-        {% assign image_data = site.data.images[image_path] %}
-        {% assign image_size = site.data.image_sizes[image_path] %}
-        <img src="/images/{{ image_path }}" alt="{{ image_data.title | escape }}" width="{{ image_size.w }}" height="{{ image_size.h }}" loading="lazy" decoding="async">
-        {% include image-credit.html image=image_data %}
-      {% endfor %}
+    {%- assign illustrasjoner = "" | split: "" -%}
+    {%- if page.image %}{% assign illustrasjoner = illustrasjoner | push: page.image %}{% endif -%}
+    {%- for image in page.images %}{% assign illustrasjoner = illustrasjoner | push: image %}{% endfor -%}
+    {%- assign illustrasjoner = illustrasjoner | uniq %}
+
+    {% if illustrasjoner.size > 0 %}
+      <section class="illustrasjoner">
+        <h2>Illustrasjoner</h2>
+        {% capture illustrasjon_alt %}Illustrasjon til {{ page.title }}{% endcapture %}
+        {% for image in illustrasjoner %}
+          {% include figure.html path=image credit="full" loading="lazy" fallback_alt=illustrasjon_alt %}
+        {% endfor %}
+      </section>
 
       <div class="ornament" aria-hidden="true">
         <span>RQPPOS</span>
