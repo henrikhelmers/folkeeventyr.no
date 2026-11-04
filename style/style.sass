@@ -109,7 +109,7 @@ img
   border: none
 
 h1
-  font-size: 2.5em
+  font-size: #{"min(2.5em, 10vw)"}
   font-family: PlainBlack
   line-height: 1
   margin: 0 auto
@@ -119,6 +119,21 @@ h1
   color: rgba(black, 0.85)
   +prefix(text-stroke, 0.4px black)
   text-shadow: 0 0 9px rgba(#9b7b4c, 0.6)
+  overflow-wrap: break-word
+
+  +mobile
+    hyphens: auto
+    hyphenate-limit-chars: 10 5 5
+
+.visually-hidden
+  position: absolute
+  width: 1px
+  height: 1px
+  margin: -1px
+  padding: 0
+  overflow: hidden
+  clip-path: inset(50%)
+  white-space: nowrap
 
 h2
   font-family: PlainBlack
@@ -441,8 +456,17 @@ article
 
 .tags
   display: grid
-  grid-template-columns: 1fr 1fr 1fr
+  grid-template-columns: repeat(3, minmax(0, 1fr))
   grid-gap: 5px
+
+  +mobile
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+    padding: 0 16px
+
+  h2
+    margin-left: 0
+    margin-right: 0
+    font-size: #{"min(1.5em, 6.4vw)"}
 
   .tag
     display: flex
@@ -457,6 +481,8 @@ article
       margin-top: 20px
       max-width: 160px
       text-decoration: none
+      overflow-wrap: anywhere
+      hyphens: auto
 
     .ornament
       margin-top: 8px
@@ -495,7 +521,8 @@ p.intro
   position: relative
 
   h3
-    white-space: nowrap
+    +notMobile
+      white-space: nowrap
 
   p
     font-size: 80%
