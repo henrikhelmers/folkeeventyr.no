@@ -1,6 +1,7 @@
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#512c1e">
   {% capture page_title %}{% if page.type == "tag" %}Eventyr om {{ page.tag | capitalize }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
   {% capture page_description %}{% if page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
   {% if page.image %}

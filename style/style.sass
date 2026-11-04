@@ -2,6 +2,7 @@
 ---
 
 $line-height: 32px
+$safe-top: env(safe-area-inset-top, 0px)
 
 @font-face
   font-family: "PlainBlack"
@@ -168,19 +169,36 @@ header, footer
 header
   background-image: url("leather_bg_2x.png")
   background-size: 512px 114px
-  height: 114px
+  background-position: left bottom
+  height: calc(114px + #{$safe-top})
+  padding-top: $safe-top
   position: fixed
   left: 0
   right: 0
   top: 0
   z-index: 1
 
+  &::before
+    content: ""
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    height: $safe-top
+    background: inherit
+    background-position: left top
+
+  div
+    @media (max-width: 840px)
+      padding-left: 7.5%
+      padding-right: 7.5%
+
   a
     display: block
     width: 100%
     height: 55px
     background-image: url("logo.png")
-    background-size: 342px auto
+    background-size: #{"min(342px, 100%)"} auto
     background-repeat: no-repeat
 
 article
@@ -190,7 +208,7 @@ article
   color: #210
   position: relative
   max-width: 840px
-  margin: 120px auto
+  margin: calc(120px + #{$safe-top}) auto 120px
   box-sizing: border-box
   padding-bottom: 60px
 
