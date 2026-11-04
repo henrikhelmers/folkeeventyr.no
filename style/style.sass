@@ -66,11 +66,6 @@ $safe-top: env(safe-area-inset-top, 0px)
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
     @content
 
-@mixin print()
-  @media print
-  @at-root .print #{&}
-    @content
-
 *
   box-sizing: border-box
 
@@ -91,11 +86,6 @@ body
   font: 400 22px/#{$line-height} FellEnglish, Georgia, serif
   transition: padding 0.2s
   image-rendering: pixelated
-
-  +print
-    background: white !important
-    color: black
-    padding: 5px 0
 
 a
   color: inherit
@@ -232,18 +222,12 @@ article
       transition-duration: 0s
       text-shadow: 0 0 5px #ffe,  0 0 10px #feb,  0 0 15px #fc6
 
-    p &
-      text-decoration: underline
-
   p
     text-shadow: 0 0 4px rgba(155, 123, 76, 1)
     hyphens: auto
 
     + p
       margin-top: 20px
-
-    +print
-      text-shadow: none
 
     sup
       line-height: 1
@@ -286,12 +270,6 @@ article
     user-select: auto
     margin-left: 7.5%
     margin-right: 7.5%
-
-  +print
-    border: none
-    margin-top: 0
-    padding-left: 6cm
-    padding-right: 6cm
 
   strong span:first-child
     font-family: Initials
@@ -372,16 +350,11 @@ article
     text-align: center
     font-family: FellEnglish-SC, FellEnglish, Georgia, serif
 
-    +print
-      text-shadow: none
-
     + .ornament
       margin-top: 0.5em
       margin-bottom: 1em
 
   &
-    +print
-      padding: 0
 
     hr
       border: none
@@ -469,9 +442,6 @@ article
   font-family: FellEnglish-SC, FellEnglish, Georgia, serif
   text-shadow: 0 1px 2px black
 
-  +print
-    display: none
-
 .tags
   display: grid
   grid-template-columns: repeat(3, minmax(0, 1fr))
@@ -518,18 +488,6 @@ p.intro
 
   + .ornament
     margin-bottom: 0.5em
-
-// PRINT AFFORDANCES
-+print
-  *
-    text-shadow: none !important
-    color: inherit !important
-    background: none !important
-
-  body
-    font-size: 14px
-    line-height: 22px
-    padding-top: 30px
 
 // LYDBOK
 #lydbok
