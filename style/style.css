@@ -152,6 +152,14 @@ ul {
   }
 }
 
+.ornament {
+  margin-top: var(--line-height);
+
+  h1 + & {
+    margin-top: 0;
+  }
+}
+
 header div, footer div {
   max-width: 840px;
   margin: 0 auto;
@@ -423,13 +431,23 @@ article {
 
     dl {
       display: grid;
-      grid-template-columns: max-content 1fr;
+      grid-template-columns: 7.5em minmax(0, 1fr);
       gap: 0 1em;
+
+      @media (width <= 480px) {
+        grid-template-columns: minmax(0, 1fr);
+      }
     }
 
     dt {
       font-family: var(--font-sc);
       opacity: 0.75;
+      overflow-wrap: break-word;
+      hyphens: auto;
+
+      @media (width <= 480px) {
+        margin-top: calc(var(--line-height) * 0.25);
+      }
     }
 
     dd {
@@ -527,6 +545,7 @@ p.intro {
   font-family: var(--font-sc);
 
   + .ornament {
+    margin-top: 0;
     margin-bottom: 0.5em;
   }
 }
