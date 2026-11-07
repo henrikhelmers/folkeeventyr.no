@@ -166,6 +166,10 @@ header div, footer div {
   padding-top: 20px;
 }
 
+footer div {
+  padding-inline: 16px;
+}
+
 header {
   background-image: url("leather_bg_2x.png");
   background-size: 512px 114px;
@@ -210,6 +214,14 @@ article {
   max-width: 840px;
   margin: calc(120px + var(--safe-top)) auto 120px;
   padding-bottom: 60px;
+
+  @media (680px < width <= 872px) {
+    margin-inline: 16px;
+  }
+
+  @media (width <= 680px) {
+    margin-bottom: 60px;
+  }
 
   &::after {
     content: "";
@@ -307,12 +319,19 @@ article {
 
     &.right {
       float: right;
-      width: 55%;
     }
 
     &.left {
       float: left;
+    }
+
+    &.right, &.left {
       width: 55%;
+
+      @media (width <= 480px) {
+        float: none;
+        width: auto;
+      }
     }
 
     img {
@@ -477,21 +496,41 @@ article {
   filter: drop-shadow(0 2px 3px black);
 
   svg {
+    flex: none;
     height: 160px;
     width: 160px;
     fill: currentcolor;
+
+    @media (width <= 480px) {
+      height: 96px;
+      width: 96px;
+    }
   }
 
   span {
     text-align: left;
   }
+
+  @media (width <= 480px) {
+    gap: 12px;
+    font-size: 0.85em;
+    line-height: 1.3;
+  }
 }
 
 .bunnlenker {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 2em;
-  padding: 20px 0 40px;
+  gap: 0.5em 2em;
+  padding: 20px 16px calc(40px + env(safe-area-inset-bottom, 0px));
+
+  @media (width <= 480px) {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9em;
+  }
+
   font-family: var(--font-sc);
   text-shadow: 0 1px 2px black;
 }
