@@ -11,7 +11,6 @@ kilde:
   side: 157
   atu: "545B"
   engelsk: Lord Peter
-  runeberg: 67
 om: >
   Den yngste av tre brødre arver bare en katt, men katten skaffer ham både et
   slott og en prinsesse. Jørgen Moe skrev det ned. Det er den norske utgaven

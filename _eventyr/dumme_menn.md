@@ -9,7 +9,6 @@ kilde:
   side: 80
   atu: "1406"
   engelsk: Silly Men and Cunning Wives
-  runeberg: 26
 om: >
   To kjerringer krangler om hvem som har den dummeste mannen. Den ene får
   mannen sin til å tro at han er død, den andre får sin til å gå naken til

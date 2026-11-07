@@ -9,7 +9,6 @@ kilde:
   side: 20
   atu: "726"
   engelsk: The Father of the Family
-  runeberg: 16
 om: >
   En vandringsmann ber om husly og blir sendt fra den ene gamle mannen til den
   andre, hver eldre enn den forrige. Den sjette henger i et horn på veggen, og

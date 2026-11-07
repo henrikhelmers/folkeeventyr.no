@@ -9,7 +9,6 @@ kilde:
   side: 317
   atu: "530"
   engelsk: The Princess on the Glass Hill
-  runeberg: 116
 om: >
   Askeladden vokter høyet på jonsoknatten og fanger tre hester med rustninger
   av kobber, sølv og gull. Med dem rir han opp glassberget der prinsessen

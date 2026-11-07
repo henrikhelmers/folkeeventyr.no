@@ -10,7 +10,6 @@ kilde:
   side: 91
   atu: "15"
   engelsk: Bruin and Reynard
-  runeberg: 128
 om: >
   Bjørnen og reven har kjøpt en smørholk til jul. Tre ganger sier reven at han
   er bedt i barsel, og hver gang spiser han av smøret. Til slutt smører han

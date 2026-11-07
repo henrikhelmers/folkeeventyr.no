@@ -9,7 +9,6 @@ kilde:
   side: 201
   atu: "507A"
   engelsk: The Companion
-  runeberg: 50
 om: >
   En bondegutt bruker pengene sine på å få begravet en død mann. Siden får han
   en følgesvenn som hjelper ham å vinne en prinsesse som står i ledtog med et

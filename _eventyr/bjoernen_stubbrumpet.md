@@ -8,7 +8,6 @@ kilde:
   side: 91
   atu: "2"
   engelsk: Why the Bear Is Stumpy-Tailed
-  runeberg: 128
 om: >
   Reven lurer bjørnen til å fiske med halen gjennom et hull i isen, og da han
   rykker den opp, ryker den av. Det er det første av to korte eventyr om

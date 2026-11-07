@@ -10,7 +10,6 @@ kilde:
   side: 36
   atu: "1000"
   engelsk: The Boy Who Had an Eating Match with a Troll
-  runeberg: 49
 om: >
   Askeladden møter et troll i skogen og lurer det to ganger. Først klemmer han
   en ost og later som det er en stein. Så kappeter de, men Askeladden har

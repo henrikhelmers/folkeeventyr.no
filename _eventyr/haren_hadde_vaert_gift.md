@@ -8,7 +8,6 @@ kilde:
   side: 58
   atu: "96"
   engelsk: The Hare and the Heiress
-  runeberg: 59
 om: >
   Haren forteller reven at han har vært gift, og at det både var godt og ille.
   Hvert svar snur det forrige.

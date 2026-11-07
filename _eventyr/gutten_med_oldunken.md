@@ -9,7 +9,6 @@ kilde:
   side: 236
   atu: "332"
   engelsk: Death and the Doctor
-  runeberg: 73
 om: >
   En gutt deler juleølet sitt med Døden og blir lege. Han ser hvor Døden står
   ved sengen, og vet om den syke skal leve eller dø, men til slutt kommer

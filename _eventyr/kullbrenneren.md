@@ -12,7 +12,6 @@ kilde:
   side: 101
   atu: "1641"
   engelsk: The Charcoal Burner
-  runeberg: 39
 om: >
   En lat kullbrenner kjøper prestekappe og krage på auksjon og gir seg ut for
   å være en vis prest. Ved rene tilfeldigheter skremmer han tyvene til å

@@ -9,7 +9,6 @@ kilde:
   side: 145
   atu: "400"
   engelsk: Soria Moria Castle
-  runeberg: 46
 om: >
   Halvor, som bare satt i asken, går i land på en fremmed kyst og befrir tre
   prinsesser fra tre troll. Han vil hjem og vise seg for foreldrene, mister

@@ -9,7 +9,6 @@ kilde:
   side: 59
   atu: "5"
   engelsk: Slip Root, Catch Reynard's Foot
-  runeberg: 64
 om: >
   Bjørnen biter reven i foten, men reven roper at han tar en granrot, og
   bjørnen slipper. Det er det første av fire eventyr om bjørnen og reven i

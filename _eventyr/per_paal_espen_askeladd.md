@@ -11,7 +11,6 @@ kilde:
   side: 306
   atu: "577"
   engelsk: Boots and His Brothers
-  runeberg: 134
 om: >
   Kongen lover prinsessen og halve riket til den som kan felle en eik og grave
   en brønn. Per og Pål ler av broren som undrer seg over alt, men det er

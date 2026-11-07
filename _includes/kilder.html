@@ -19,11 +19,5 @@
     {% endif %}
   </dl>
 
-  <ul class="kildelenker">
-    <li><a href="https://www.nb.no/items/{{ samling.nb }}{% if kilde.side %}?page={{ kilde.side | plus: samling.nb_forskyvning }}{% endif %}">Se originalen fra {{ samling.utgitt }} hos Nasjonalbiblioteket</a></li>
-    {% if kilde.runeberg %}
-      {% assign kapittel = kilde.runeberg | prepend: "00" | slice: -3, 3 %}
-      <li><a href="https://runeberg.org/folkeven/{{ kapittel }}.html">Les teksten hos Projekt Runeberg</a></li>
-    {% endif %}
-  </ul>
+  <p class="kildelenke"><a href="https://www.nb.no/items/{{ samling.nb }}{% if kilde.side %}?page={{ kilde.side | plus: samling.nb_forskyvning }}{% endif %}">Se originalen fra {{ samling.utgitt }} hos Nasjonalbiblioteket</a></p>
 </section>

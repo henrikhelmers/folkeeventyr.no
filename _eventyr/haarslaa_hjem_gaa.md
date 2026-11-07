@@ -8,7 +8,6 @@ kilde:
   side: 96
   atu: "2015"
   engelsk: How they Got Hairlock Home
-  runeberg: 70
 om: >
   Geita Hårslå vil ikke hjem, og gutten Espen må be den ene etter den andre om
   hjelp, fra reven og bjørnen til finnen med børsa. Til slutt kommer hun seg

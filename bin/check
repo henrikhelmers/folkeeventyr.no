@@ -38,7 +38,7 @@ tracked.grep(%r{\A_eventyr/.+\.(md|markdown)\z}).each do |f|
 
   if (kilde = front_matter["kilde"])
     errors << "#{f}: kilde.samling #{kilde['samling'].inspect} finnes ikke i _data/samlinger.yml" unless samlinger.key?(kilde["samling"])
-    %w[nr side utgitt runeberg].each do |felt|
+    %w[nr side utgitt].each do |felt|
       errors << "#{f}: kilde.#{felt} må være et heltall" if kilde.key?(felt) && !kilde[felt].is_a?(Integer)
     end
     atu = kilde["atu"]

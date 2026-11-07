@@ -9,7 +9,6 @@ kilde:
   side: 166
   atu: "1968J"
   engelsk: Goodman Axehaft
-  runeberg: 94
 om: >
   En tunghørt ferjemann får besøk av lensmannen, og de snakker forbi hverandre
   fra begynnelse til slutt. «God dag, mann! – Økseskaft» er blitt et fast

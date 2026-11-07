@@ -9,7 +9,6 @@ kilde:
   side: 113
   atu: "37"
   engelsk: The Fox as Herdsman
-  runeberg: 54
 om: >
   En kone leter etter en gjeter, og reven får jobben fordi han kan lokke på
   dyrene. Han spiser opp hele buskapen, og da hun kaster fløten etter ham, får

@@ -9,7 +9,6 @@ kilde:
   side: 327
   atu: "327C"
   engelsk: Buttercup
-  runeberg: 51
 om: >
   En trollkjerring lokker den lille, tykke Smørbukk ned i en sekk tre ganger.
   Den siste gangen lurer han trollene til å spise sin egen datter. Asbjørnsen

@@ -12,7 +12,6 @@ kilde:
   side: 61
   atu: "1030"
   engelsk: Bruin and Reynard Partners
-  runeberg: 64
 om: >
   Bjørnen og reven dyrker en åker sammen. Reven deler, og bjørnen får rota av
   rugen og toppen av nepene. Det er det tredje av fire eventyr om bjørnen og

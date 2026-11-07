@@ -10,7 +10,6 @@ kilde:
   side: 190
   atu: "570"
   engelsk: Osborn's Pipe
-  runeberg: 24
 om: >
   Askeladden får en pipe som kaller alle harene sammen, og klarer å gjete
   kongens harer. Prinsessen, dronningen og kongen prøver å kjøpe en hare av

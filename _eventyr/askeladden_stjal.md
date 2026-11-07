@@ -10,7 +10,6 @@ kilde:
   side: 1
   atu: "328"
   engelsk: Boots and the Troll
-  runeberg: 112
 om: >
   Askeladden tjener på kongsgården og stjeler trollets sølvender, sengeteppe
   og gullharpe. Da trollet fanger ham og vil slakte ham, lurer han

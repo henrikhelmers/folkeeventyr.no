@@ -9,7 +9,6 @@ kilde:
   side: 126
   atu: "922"
   engelsk: The Priest and the Clerk
-  runeberg: 27
 om: >
   En hovmodig prest må svare på tre spørsmål fra kongen. Klokkeren tar på seg
   presteklærne og svarer for ham, og kongen lar dem bytte plass. Samme

@@ -46,7 +46,7 @@ Hver push til `main` bygges, sjekkes og publiseres via GitHub Actions.
 
 ### Kilder i et eventyr
 
-Med `kilde` og `om` i front matter får eventyret en seksjon «Om eventyret» nederst, med lenker til originalen hos Nasjonalbiblioteket og teksten hos Projekt Runeberg:
+Med `kilde` og `om` i front matter får eventyret en seksjon «Om eventyret» nederst, med lenke til originalen hos Nasjonalbiblioteket:
 
 ```yaml
 kilde:
@@ -55,7 +55,6 @@ kilde:
   side: 101               # trykt sidetall, gir lenke rett til siden hos NB
   atu: "1641"             # eventyrtype, alltid i anførselstegn
   engelsk: The Charcoal Burner
-  runeberg: 39            # kapittel i runeberg.org/folkeven/
 om: >
   Noen setninger om eventyret.
 ```

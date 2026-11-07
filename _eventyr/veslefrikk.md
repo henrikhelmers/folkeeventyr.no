@@ -12,7 +12,6 @@ kilde:
   side: 183
   atu: "592"
   engelsk: Little Freddy With his Fiddle
-  runeberg: 45
 om: >
   Veslefrikk gir bort lønnen sin til en fattig mann og får tre ønsker: en
   børse som treffer alt, en fele som får alt levende til å danse, og at ingen

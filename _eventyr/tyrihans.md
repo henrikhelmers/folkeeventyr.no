@@ -12,7 +12,6 @@ kilde:
   side: 121
   atu: "571"
   engelsk: Taper Tom
-  runeberg: 37
 om: >
   Prinsessen kan ikke le, og den som får henne til det, skal få henne.
   Tyrihans bytter til seg en gullgås, og alle som tar i den, blir hengende

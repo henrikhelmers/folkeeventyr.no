@@ -10,7 +10,6 @@ kilde:
   side: 98
   atu: "510AB"
   engelsk: Katie Woodencloak
-  runeberg: 106
 om: >
   En prinsesse flykter fra en ond stemor sammen med en stor blå stut, og tar
   tjeneste på en kongsgård i en stakk av tre. Asbjørnsen skrev det ned.

@@ -7,7 +7,6 @@ kilde:
   samling: barne_eventyr
   side: 107
   atu: "65"
-  runeberg: 19
 om: >
   Reven dør, og enka får friere, den ene etter den andre, men hun vil bare ha
   en som er lik mannen hennes. Moltke Moe skrev det ned. Samme type finnes hos

@@ -10,7 +10,6 @@ kilde:
   side: 1
   atu: "301"
   engelsk: The Three Princesses in the Mountain in the Blue
-  runeberg: 42
 om: >
   Tre kongsdøtre er bergtatt av troll, og en soldat drar ut og befrir dem.
   Kapteinen og løytnanten tar æren, men soldaten får kongsdatteren til slutt.

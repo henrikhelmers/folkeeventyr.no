@@ -8,7 +8,6 @@ kilde:
   nr: 50
   side: 248
   atu: "1440"
-  runeberg: 44
 om: >
   En rik enkemann vil gifte seg med en fattig jente. Hun sier nei, og da han
   sender bud etter bruden, får han ei merr i brudekjole. Eventyret kom med i

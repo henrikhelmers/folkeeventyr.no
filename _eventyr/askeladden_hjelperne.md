@@ -15,7 +15,6 @@ kilde:
   side: 82
   atu: "513"
   engelsk: Boots and his Crew
-  runeberg: 99
 om: >
   Kongen lover prinsessen til den som bygger et skip som går like godt på land
   som på vann. Askeladden får skipet og tar med seg hjelpere med rare evner,

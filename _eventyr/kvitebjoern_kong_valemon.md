@@ -9,7 +9,6 @@ kilde:
   side: 154
   atu: "425"
   engelsk: King Valemon, the White Bear
-  runeberg: 93
 om: >
   En prinsesse drar med en kvit bjørn som egentlig er kong Valemon. Hun tenner
   lys for å se ham, og han må dra til en trollkjerring. Hun leter etter ham og

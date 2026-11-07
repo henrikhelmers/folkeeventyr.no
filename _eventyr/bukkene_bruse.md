@@ -10,7 +10,6 @@ kilde:
   side: 248
   atu: "122E"
   engelsk: Three Billy Goats Gruff
-  runeberg: 21
 om: >
   Tre bukker skal over en bro for å gjøre seg fete på setra, men under broen
   bor et troll. De to minste lurer trollet til å vente på den største, som

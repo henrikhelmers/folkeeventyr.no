@@ -10,7 +10,6 @@ kilde:
   side: 60
   atu: "7"
   engelsk: Pork and Honey
-  runeberg: 64
 om: >
   Bjørnen og reven vedder om hvem som kan nevne tre trær først. Reven vinner
   flesket, og bjørnen får et humlebol i fleisen. Det er det andre av fire

@@ -11,7 +11,6 @@ kilde:
   side: 233
   atu: "2025"
   engelsk: The Pancake
-  runeberg: 5
 om: >
   Pannekaken er et kjedeeventyr. Den triller fra den ene til den andre, som
   alle vil spise den, helt til grisen lurer den til slutt. Asbjørnsen tok det

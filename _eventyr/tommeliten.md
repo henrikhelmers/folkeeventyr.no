@@ -10,7 +10,6 @@ kilde:
   side: 267
   atu: "700"
   engelsk: Thumbikin
-  runeberg: 14
 om: >
   Tommeliten er ikke lenger enn en tommelfinger, men skal likevel ut og fri.
   Han gjemmer seg i manen og øret på hesten, får prinsessen og drukner til

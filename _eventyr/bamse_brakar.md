@@ -11,7 +11,6 @@ kilde:
   side: 63
   atu: "116"
   engelsk: Bruin Goodfellow
-  runeberg: 22
 om: >
   En bjørn havner alene på sleden til en bonde, og hesten stikker av med ham.
   Folk han møter tror det er futen som kommer kjørende. Til slutt får bonden

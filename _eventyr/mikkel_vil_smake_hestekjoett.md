@@ -8,7 +8,6 @@ kilde:
   side: 62
   atu: "47A"
   engelsk: Reynard Wants to Taste Horse-Flesh
-  runeberg: 64
 om: >
   Reven lurer bjørnen til å binde seg fast i halen på en hest for å fange den.
   Det går ikke slik bjørnen hadde tenkt, og eventyret forklarer også hvorfor
