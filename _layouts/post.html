@@ -66,7 +66,7 @@ layout: default
 
     {% assign original = site.originaler | where: "slug", page.slug | first %}
     {% if original %}
-      {% capture original_html %}{{ original.content | markdownify }}{% endcapture %}
+      {% assign original_html = original.content %}
       {% assign original_utgitt = site.data.samlinger[page.kilde.samling].utgitt %}
       <fieldset class="versjonsvelger">
         <legend class="visually-hidden">Velg versjon</legend>
