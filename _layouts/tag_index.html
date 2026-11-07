@@ -17,8 +17,9 @@ type: tag
 
   <article class="eventyr category">
     {% assign image_post = posts | last %}
-    {% if image_post.image %}
-      {% include figure.html path=image_post.image class="storyimage" fallback_alt=image_post.title fetchpriority="high" %}
+    {% assign tag_image = page.image | default: image_post.image %}
+    {% if tag_image %}
+      {% include figure.html path=tag_image class="storyimage" fallback_alt=tag_name fetchpriority="high" %}
     {% endif %}
 
     <h1>Eventyr om {{ tag_name | slice: 0 | upcase }}{{ tag_name | slice: 1, 100 }}</h1>
@@ -28,7 +29,8 @@ type: tag
 
     <div class="forhåndsvisninger">
       {% for post in posts %}
-        <a href="{{ post.url }}" class="forhåndsvisning"{% if post.image %} style="background-image: url('/images/{{ post.image | prepend: "/" | replace: "//", "/" | remove_first: "/" }}')"{% endif %}>
+        <a href="{{ post.url }}" class="forhåndsvisning">
+          <span class="bilde"{% if post.image %} style="background-image: url('/images/{{ post.image | prepend: "/" | replace: "//", "/" | remove_first: "/" }}')"{% endif %}></span>
           <h3>{{ post.title }}</h3>
           <p>
             Med {% include list-sentence.html items=post.tags end="." %}
