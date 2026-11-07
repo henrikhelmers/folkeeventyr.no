@@ -10,6 +10,8 @@ collections:
   eventyr:
     output: true
     permalink: /:title/
+  originaler:
+    output: false
 defaults:
   - scope: { type: eventyr }
     values: { layout: post }

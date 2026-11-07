@@ -589,6 +589,62 @@ p.intro {
   }
 }
 
+.versjonsvelger {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto var(--line-height);
+  padding: 3px;
+  border: none;
+  border-radius: 6px;
+  background: #0002;
+  box-shadow: 0 1px 1px 1px #0002 inset, 0 1px 15px #0001 inset;
+  font-family: var(--font-sc);
+  user-select: none;
+  -webkit-user-select: none;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  label {
+    padding: 2px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #fff2;
+    }
+  }
+
+  input:checked + label {
+    background-color: #fff5;
+    box-shadow: 0 1px 2px #1004;
+  }
+
+  input:focus-visible + label {
+    outline: 2px solid #4318;
+    outline-offset: 1px;
+  }
+}
+
+.story[data-versjon="original"] {
+  display: none;
+}
+
+.eventyr:has(#versjon-original:checked) {
+  .story[data-versjon="fornorsket"] {
+    display: none;
+  }
+
+  .story[data-versjon="original"] {
+    display: block;
+  }
+}
+
 #lydbok {
   max-width: 24em;
   margin: 2em auto;
@@ -715,6 +771,13 @@ p.intro {
   h3 {
     margin-top: 0;
   }
+
+  p {
+    margin-top: 8px;
+    font-size: 0.8em;
+    line-height: 1.3;
+    opacity: 0.75;
+  }
 }
 
 .gold {
@@ -762,12 +825,5 @@ p.intro {
 
   figure {
     margin: 0;
-  }
-
-  p {
-    margin-top: 8px;
-    font-size: 0.8em;
-    line-height: 1.3;
-    opacity: 0.75;
   }
 }

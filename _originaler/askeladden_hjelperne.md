@@ -1,26 +1,5 @@
 ---
-title: Originalversjon—Askeladden og De Gode Hjelperne
-image: otton_sinding-askeladden_og_de_gode_hjelperne.png
-images:
-  - otton_sinding-askeladden_og_de_gode_hjelperne_2.png
-  - otton_sinding-askeladden_og_de_gode_hjelperne_3.png
-  - otton_sinding-askeladden_og_de_gode_hjelperne_4.png
-  - gamle/askeladden_hjelperne.png
-tags:
-  - Askeladden
-  - konger
-  - original
-kilde:
-  samling: ny_samling
-  nr: 79
-  side: 82
-  atu: "513"
-  engelsk: Boots and his Crew
-  runeberg: 99
-om: >
-  Kongen lover prinsessen til den som bygger et skip som går like godt på land
-  som på vann. Askeladden får skipet og tar med seg hjelpere med rare evner,
-  som hjelper ham gjennom kongens prøver.
+# Originalteksten til _eventyr/askeladden_hjelperne.md. Vises med en veksler i eventyret.
 ---
 
 **Det var en gang** en konge, som hadde hørt tale om et skip som gikk like fort til lands som til vanns, og et slikt skip ville han også ha. Til den som kunne bygge det, lovte han ut kongsdatteren og halve kongeriket, og det lyste han opp på kirkebakken over hele landet (det var slik de folk fikk vite ting I gamle dager).

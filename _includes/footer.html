@@ -71,8 +71,10 @@
     textNode.appendChild(textEl);
   }
 
-  const introLine = document.querySelector(".eventyr strong");
-  if (introLine) createIntroLine(introLine);
+  document.querySelectorAll(".eventyr .story").forEach(story => {
+    const introLine = story.querySelector("strong");
+    if (introLine) createIntroLine(introLine);
+  });
   document.querySelectorAll(".gold").forEach(textNode => goldEffect(textNode));
 
   document.addEventListener("scroll", queueScroll, { passive: true });

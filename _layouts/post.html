@@ -64,9 +64,38 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="story">
+    {% assign original = site.originaler | where: "slug", page.slug | first %}
+    {% if original %}
+      {% capture original_html %}{{ original.content | markdownify }}{% endcapture %}
+      {% assign original_utgitt = site.data.samlinger[page.kilde.samling].utgitt %}
+      <fieldset class="versjonsvelger">
+        <legend class="visually-hidden">Velg versjon</legend>
+        <input type="radio" name="versjon" id="versjon-fornorsket" value="fornorsket" checked>
+        <label for="versjon-fornorsket">Fornorsket</label>
+        <input type="radio" name="versjon" id="versjon-original" value="original">
+        <label for="versjon-original">Original{% if original_utgitt %} fra {{ original_utgitt }}{% endif %}</label>
+      </fieldset>
+      <script>
+        (() => {
+          const original = document.getElementById("versjon-original");
+          if (location.hash === "#original") original.checked = true;
+          document.querySelector(".versjonsvelger").addEventListener("change", () => {
+            history.replaceState(null, "", original.checked ? "#original" : location.pathname + location.search);
+            document.querySelectorAll(".story .gold").forEach(node => node.offsetParent && window.goldEffect?.(node));
+          });
+        })();
+      </script>
+    {% endif %}
+
+    <div class="story" data-versjon="fornorsket">
       {{ content }}
     </div>
+
+    {% if original %}
+      <div class="story" id="original" data-versjon="original">
+        {{ original_html }}
+      </div>
+    {% endif %}
 
     <div class="ornament" aria-hidden="true">
       <span>RQPPOS</span>
@@ -91,7 +120,8 @@ layout: default
       </div>
     {% endif %}
 
-    {% include ordliste.html tekst=content %}
+    {% capture ordliste_tekst %}{{ content }} {{ original_html }}{% endcapture %}
+    {% include ordliste.html tekst=ordliste_tekst %}
 
     {% if page.kilde %}
       {% include kilder.html %}
